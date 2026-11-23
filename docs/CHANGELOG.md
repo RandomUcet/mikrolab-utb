@@ -40,3 +40,6 @@
 - Modernizovaný vizuální systém a responsive zobrazení pro desktop a mobil.
 - Samostatný `MikroLab_offline.html`, fungující po otevření bez lokálního serveru; lokální ukládání ve `file://` může být omezené.
 - Nové regresní testy, test v headless Chromium pro desktop a mobil.
+
+- Oprava návaznosti diagnostických chyb na opakování a přehled chyb.
+- Historie diagnostik je viditelná ve statistikách, se sdělením o omezené srovnatelnosti výsledků.

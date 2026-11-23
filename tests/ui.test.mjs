@@ -59,3 +59,5 @@ test('diagnostic attempts become actionable mistakes without duplicating exam hi
  assert.equal(app.state.exams.length,0);
  assert.equal(app.state.attempts.filter(a=>!a.correct).length,1);
 });
+
+test('diagnostic history in statistics is not portrayed as a reliable grade prediction',()=>{const app=fake();app.state.diagnostics=[{id:'baseline-1',at:'2026-11-23T12:00:00.000Z',answers:[{topicId:content.topics[0].id,questionId:content.topics[0].questions[0].id,correct:false}]}];const html=app.stats();assert.match(html,/Historie orientačních průchodů/);assert.match(html,/nedokazuje zlepšení ani zhoršení/);});
