@@ -83,7 +83,7 @@ Projekt patří do **samostatného repozitáře**, ne do některého existujíc�
 git init -b main
 git add .
 git commit -m "MikroLab v0.3.0 – rozšířená výuková aplikace"
-git remote add origin https://github.com/TVUJ_UCET/mikrolab-utb.git
+git remote add origin https://github.com/RandomUcet/mikrolab-utb.git
 git push -u origin main
 ```
 
@@ -113,3 +113,7 @@ Viz také [`docs/IMPLEMENTATION_PLAN.md`](docs/IMPLEMENTATION_PLAN.md), [`docs/L
 ## Změny 0.4.0
 
 Vstupní diagnostika (14 kapitol), rozbor otázek a doporučené kapitoly. Po vyřešení rovnováhy trhu lze posouvat poptávku v grafu sestaveném z přesných parametrů zadání. U MRPL lze měnit produktivitu a sledovat vztah k mzdovému nákladu. Všechny nové údaje se ukládají místně a přenášejí v JSON záloze. Offline HTML zahrnuje nové moduly. Rozložené opakování zůstává heuristické.
+
+## Stav zveřejnění na GitHub Pages
+
+Zdrojový kód a hotová offline sestava jsou v repozitáři. Webová adresa `https://randomucet.github.io/mikrolab-utb/` začne fungovat teprve po zapnutí **Settings → Pages → Build and deployment → GitHub Actions**. Automatické založení Pages prostřednictvím současného GitHub App přístupu nemá dostatečné oprávnění. Po aktivaci spusť workflow **Deploy MikroLab Pages** v záložce Actions, pokud se nespustí samo.
