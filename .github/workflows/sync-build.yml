@@ -1,0 +1,34 @@
+name: Sync prebuilt MikroLab files
+on:
+  push:
+    branches: [feature/mikrolab-v0.4.0]
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'tools/**'
+      - 'tests/**'
+      - 'package.json'
+      - '.github/workflows/sync-build.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npm run check
+      - name: Commit updated build
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f dist MikroLab_offline.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'build: refresh offline and precompiled assets [skip ci]'
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
