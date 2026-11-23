@@ -1,7 +1,7 @@
 import type {Attempt, CourseContent, ExamResult, Flashcard, Question, Rating, ReviewState, Topic, UserState} from './types.js';
 
 export const DAY_MS = 86_400_000;
-export function initialState(): UserState { return {version:1,cards:{},attempts:[],exams:[],mathAttempts:[],visitedTopics:[],reviewDays:[],dailyGoal:8,preference:'light'}; }
+export function initialState(): UserState { return {version:1,cards:{},attempts:[],exams:[],diagnostics:[],mathAttempts:[],visitedTopics:[],reviewDays:[],dailyGoal:8,preference:'light'}; }
 export function allCards(content:CourseContent): {topic:Topic;card:Flashcard}[] {return content.topics.flatMap(topic=>topic.cards.map(card=>({topic,card})));}
 export function allQuestions(content:CourseContent): {topic:Topic;question:Question}[] {return content.topics.flatMap(topic=>topic.questions.map(question=>({topic,question})));}
 export function due(review:ReviewState|undefined, at:Date=new Date()):boolean {return Boolean(review&&new Date(review.dueAt).getTime()<=at.getTime());}

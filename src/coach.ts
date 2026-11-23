@@ -13,6 +13,7 @@ export function unresolvedMistakes(content:CourseContent,state:UserState){
 }
 export function weakTopics(content:CourseContent,state:UserState):WeakTopic[]{
  const outstanding=new Set(unresolvedMistakes(content,state).map(x=>x.question.id));
+ const baseline=new Map(state.diagnostics?.at(-1)?.answers.map(x=>[x.topicId,x.correct])??[]);
  return content.topics.map(topic=>{
   const attempts=state.attempts.filter(a=>a.topicId===topic.id);
   const recent=attempts.slice(-8);
@@ -20,8 +21,9 @@ export function weakTopics(content:CourseContent,state:UserState):WeakTopic[]{
   const p=topicProgress(topic,state);
   const pending=topic.questions.filter(q=>outstanding.has(q.id)).length;
   // Prioritize errors, unseen topics and lower recent accuracy; not a grade prediction.
-  const priority=pending*15+(recentAccuracy===null?25:Math.round((100-recentAccuracy)*0.7))+(p.finished?0:18);
-  const reason=pending?`${pending} otáz${pending===1?'ka':'ek'} k opravě`:recentAccuracy===null?'Zatím bez procvičování':recentAccuracy<75?'Nízká úspěšnost posledních odpovědí':'Udržovací opakování';
+  const diagnosticWeak=baseline.get(topic.id)===false&&recent.length===0;
+  const priority=(diagnosticWeak?24:0)+pending*15+(recentAccuracy===null?25:Math.round((100-recentAccuracy)*0.7))+(p.finished?0:18);
+  const reason=diagnosticWeak?'Doporučeno po vstupní diagnostice':pending?`${pending} otáz${pending===1?'ka':'ek'} k opravě`:recentAccuracy===null?'Zatím bez procvičování':recentAccuracy<75?'Nízká úspěšnost posledních odpovědí':'Udržovací opakování';
   return {topic,attempts:attempts.length,accuracy:p.accuracy,recentAccuracy,pending,priority,reason};
  }).sort((a,b)=>b.priority-a.priority||a.topic.order-b.topic.order);
 }

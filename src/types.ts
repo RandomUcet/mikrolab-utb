@@ -42,6 +42,8 @@ export interface Question {
 export type Rating = 'again' | 'hard' | 'good' | 'easy';
 export interface ReviewState { cardId: string; topicId: string; repetitions: number; ease: number; interval: number; dueAt: string; lastAt: string; lastRating: Rating }
 export interface Attempt { questionId: string; topicId: string; correct: boolean; at: string; mode: 'practice'|'exam' }
+export interface DiagnosticAnswer {topicId:string;questionId:string;correct:boolean}
+export interface DiagnosticRecord {id:string;at:string;answers:DiagnosticAnswer[]}
 export interface ExamResult { id: string; at: string; correct: number; total: number; topicIds: string[] }
 export interface UserState {
   version: 1;
@@ -49,6 +51,7 @@ export interface UserState {
   attempts: Attempt[];
   mathAttempts: CalcAttempt[];
   exams: ExamResult[];
+  diagnostics: DiagnosticRecord[];
   visitedTopics: string[];
   reviewDays: string[];
   dailyGoal: number;

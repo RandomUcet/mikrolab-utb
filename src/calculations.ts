@@ -27,6 +27,8 @@ export interface CalcProblem {
   tolerance: number;
   steps: string[];
   hint: string;
+  market?:{a:number;b:number;c:number;d:number};
+  labor?:{mpl:number;price:number;wage:number};
 }
 export interface CalcAttempt {
   skillId: CalcSkillId;
@@ -67,10 +69,12 @@ export function generateCalcProblem(skillId:CalcSkillId,rng:()=>number=Math.rand
  const skill=byId.get(skillId);if(!skill)throw new Error(`Neznámá dovednost: ${skillId}`);
  const val=(min:number,max:number)=>rr(rng,min,max);
  let prompt='', answer=0,steps:string[]=[],hint='',unit='';
+ let market:CalcProblem['market'];let labor:CalcProblem['labor'];
  switch(skillId){
  case 'rovnovaha-trhu': {
   const price=val(8,35), q=val(30,120), b=val(2,5), d=val(2,5);
   const a=q+b*price,c=q-d*price;
+  market={a,b,c,d};
   prompt=`Poptávka je Qd = ${a} − ${b}P a nabídka Qs = ${c} + ${d}P. Urči rovnovážnou cenu P.`;
   answer=price;unit='Kč';hint='Polož Qd = Qs a převeď členy s cenou na stejnou stranu.';
   steps=[`Rovnováha nastane, když Qd = Qs: ${a} − ${b}P = ${c} + ${d}P.`,`Převedeme členy: ${a-c} = ${b+d}P.`,`P = (${a-c}) / (${b+d}) = ${price} Kč.`];break;
@@ -114,6 +118,7 @@ export function generateCalcProblem(skillId:CalcSkillId,rng:()=>number=Math.rand
  }
  case 'trh-prace': {
   const mp=val(4,24),price=val(4,20)*10, wage=val(20,55)*10;
+  labor={mpl:mp,price,wage};
   prompt=`Při konstantní ceně výrobku ${price} Kč vytvoří dodatečný pracovník ${mp} kusů. Jeho mzdový náklad je ${wage} Kč za stejné období. Vypočti jeho mezní příjem produktu práce MRPL.`;
   answer=mp*price;unit='Kč';hint='V modelu dokonale konkurenčního trhu produktu násobíme dodatečný výstup cenou.';
   steps=[`MRPL = MPL × P.`,`MRPL = ${mp} × ${price} = ${answer} Kč.`,`Porovnej tento přínos s mzdovým nákladem ${wage} Kč; otázka požaduje samotné MRPL.`];break;
@@ -144,7 +149,7 @@ export function generateCalcProblem(skillId:CalcSkillId,rng:()=>number=Math.rand
  }
  }
  if(!Number.isFinite(answer) || !steps.length)throw new Error('Nevygenerovaná úloha');
- return {id:`${skillId}:${Math.trunc(rng()*1_000_000_000)}`,skillId,topicId:skill.topicId,title:skill.title,prompt,answer,unit,tolerance:Number.isInteger(answer)?1e-8:0.005001,steps,hint};
+ return {id:`${skillId}:${Math.trunc(rng()*1_000_000_000)}`,skillId,topicId:skill.topicId,title:skill.title,prompt,answer,unit,tolerance:Number.isInteger(answer)?1e-8:0.005001,steps,hint,market,labor};
 }
 
 /** Czech decimal separator accepted; do not interpret units or arbitrary expressions. */
