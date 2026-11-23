@@ -34,5 +34,11 @@ test('quiz UI keeps correct answers hidden during simulated exam',()=>{
 
 test('service worker precaches all generated JS modules required offline',()=>{
  const source=readFileSync(new URL('../dist/sw.js',import.meta.url),'utf8');
- for(const name of ['main','ui','engine','store','coach','calculations','types'])assert.ok(source.includes(`./js/${name}.js`),name);
+ for(const name of ['main','ui','engine','store','coach','calculations','types','diagnostic','visuals'])assert.ok(source.includes(`./js/${name}.js`),name);
+});
+
+test('standalone HTML contains diagnostic and worked plot modules',()=>{
+ const html=readFileSync(new URL('../MikroLab_offline.html',import.meta.url),'utf8');
+ for(const name of ['function planDiagnostic(', 'function diagnosticSummary(', 'function marketProblemSvg(', 'function laborProblemSvg('])assert.ok(html.includes(name),name);
+ assert.match(html,/MikroLab 0\.4/);
 });

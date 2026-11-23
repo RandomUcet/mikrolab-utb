@@ -1,5 +1,13 @@
 # MikroLab – změny verzí
 
+## 0.4.0 (2026-11-23)
+
+- Orientační diagnostika všech 14 kapitol s odloženou zpětnou vazbou a rozborem výsledků.
+- Samostatné ukládání diagnostických výsledků a jejich omezené využití v doporučeních.
+- Interaktivní graf podle konkrétních koeficientů tržní rovnováhy po odevzdání odpovědi.
+- Interaktivní srovnání MRPL a mzdového nákladu při změně produktivity.
+- Testy a oprava offline HTML sestavy i popisků modelu trhu práce.
+
 ## 0.3.0 (2026-11-23)
 
 - Přidán početní trenažér s 12 typy úloh: rovnováha, elasticita, tržby, průměrné a mezní náklady, zisk, mezní produkt, trh práce, monopol, mezní užitek, současná hodnota a bod zvratu.

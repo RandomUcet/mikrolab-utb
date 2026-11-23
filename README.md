@@ -1,8 +1,8 @@
-# MikroLab v0.3.0 · Mikroekonomie I
+# MikroLab v0.4.0 · Mikroekonomie I
 
 **Samostatná studijní webová aplikace pro UTB FLKŘ.** Neoficiální výuková pomůcka postavená na zadaných materiálech; nezaručuje úspěch u zápočtu a její otázky nejsou oficiálním testem univerzity.
 
-**14 kapitol · 126 procvičovacích otázek · 86 kartiček · 12 typů generovaných početních úloh · detailní výklady a grafy.**
+**14 kapitol · 126 otázek · 86 kartiček · 12 početních dovedností · vstupní diagnostika · interaktivní grafy.**
 
 ## První spuštění na MacBooku s Apple Silicon
 
@@ -22,6 +22,7 @@ Potom otevři [http://localhost:4173](http://localhost:4173). Pokud Python nemá
 
 | Oblast | Co se děje |
 |---|---|
+| Vstupní diagnostika | Orientační test (1 otázka na každou ze 14 kapitol), rozbor po dokončení a doporučení dalšího studia. Nejde o psychometrický test ani předpověď známky. |
 | Kapitoly | Učivo ze 13 seminářů + rozšiřující kapitola AI, detailnější postupy řešení, vzorce, modelové úlohy a časté chyby |
 | Aktivní vybavování | 86 kartiček, odpověď se zobrazí až po vlastním pokusu |
 | Opakování | Rozložené intervaly plánované podle sebehodnocení, možnost návratu k chybám |
@@ -108,3 +109,7 @@ Viz také [`docs/IMPLEMENTATION_PLAN.md`](docs/IMPLEMENTATION_PLAN.md), [`docs/L
 - Některé prohlížeče omezují ukládání u offline HTML otevřeného jako `file://`; doporučuje se lokální `.command` server a pravidelné zálohy.
 - Pro GitHub Pages: **Settings → Pages → Source: GitHub Actions**. Nasazení vytváří `.github/workflows/pages.yml`.
 - Termín zápočtu, početní pokusy, opakovací kartičky a odpovědi zůstávají jen v prohlížeči uživatele.
+
+## Změny 0.4.0
+
+Vstupní diagnostika (14 kapitol), rozbor otázek a doporučené kapitoly. Po vyřešení rovnováhy trhu lze posouvat poptávku v grafu sestaveném z přesných parametrů zadání. U MRPL lze měnit produktivitu a sledovat vztah k mzdovému nákladu. Všechny nové údaje se ukládají místně a přenášejí v JSON záloze. Offline HTML zahrnuje nové moduly. Rozložené opakování zůstává heuristické.
