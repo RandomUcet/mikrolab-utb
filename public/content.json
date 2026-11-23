@@ -1,0 +1,2809 @@
+{
+  "schemaVersion": 1,
+  "subject": "Mikroekonomie I",
+  "school": "UTB FLKŘ",
+  "edition": "2.0 · rozšířená studijní verze, 2026",
+  "disclaimer": "Výukové parafráze a ilustrační příklady sestavené podle dodaných materiálů. Nejde o oficiální otázky k zápočtu ani o záruku úspěchu.",
+  "sources": [
+    {
+      "label": "Sýkora, Tomáš. Seminární prezentace Mikroekonomie, semináře 1–13. UTB FLKŘ.",
+      "kind": "course"
+    },
+    {
+      "label": "Dohnalová, Zuzana a Kamil Dobeš. Mikroekonomie I. UTB, 2013.",
+      "kind": "course"
+    },
+    {
+      "label": "BCG, MPSV, Aspen Institute. Budoucnost českého pracovního trhu. Únor 2025.",
+      "kind": "supplement"
+    },
+    {
+      "label": "Úřad práce ČR. Predikce a realita pracovního trhu očima zaměstnavatelů. 2026.",
+      "kind": "supplement"
+    }
+  ],
+  "topics": [
+    {
+      "id": "zaklady",
+      "order": 1,
+      "title": "Základy ekonomie",
+      "blurb": "Vzácnost, alternativní náklady, pozitivní a normativní výroky a hranice produkčních možností.",
+      "minutes": 15,
+      "objectives": [
+        "Vysvětlit, proč ekonomie řeší volbu mezi možnostmi.",
+        "Rozlišit popis reality od hodnotového soudu.",
+        "Použít hranici produkčních možností."
+      ],
+      "sections": [
+        {
+          "heading": "Vzácnost a volba",
+          "body": "Zdroje (čas, práce, půda i kapitál) jsou omezené. Každé rozhodnutí proto znamená, že se vzdáme jiné možnosti. Náklad obětované příležitosti je hodnota nejlepší nevyužité alternativy."
+        },
+        {
+          "heading": "Pozitivní a normativní ekonomie",
+          "body": "Pozitivní výrok popisuje, jak ekonomika funguje nebo co se stalo; lze jej ověřovat daty. Normativní výrok vyjadřuje, co by se mělo stát, a obsahuje hodnotové hledisko."
+        },
+        {
+          "heading": "Hranice produkčních možností (PPF)",
+          "body": "Bod na hranici znamená efektivní využití dostupných zdrojů; bod uvnitř ukazuje nevyužitý potenciál. Bod vně je při daných zdrojích a technologiích nedosažitelný."
+        }
+      ],
+      "example": {
+        "title": "Volba studenta",
+        "situation": "Máš tři hodiny a můžeš jít na brigádu nebo se připravovat na test.",
+        "reasoning": "Pokud zvolíš učení, vzdáváš se nejlepší alternativy, například výdělku z brigády.",
+        "conclusion": "Ekonomický náklad volby není vždy jen zaplacená cena."
+      },
+      "pitfall": "Nezaměňuj pozitivní výrok s „pozitivním hodnocením“. Pozitivní ekonomie může popisovat i špatnou situaci.",
+      "source": "Sýkora: Úvod do ekonomického studia, seminář č. 1; Dohnalová a Dobeš: Mikroekonomie I (2013).",
+      "cards": [
+        {
+          "id": "zaklady-c1",
+          "front": "Co je vzácnost?",
+          "back": "Omezenost zdrojů vzhledem k potřebám a přáním."
+        },
+        {
+          "id": "zaklady-c2",
+          "front": "Co jsou náklady obětované příležitosti?",
+          "back": "Hodnota nejlepší alternativy, které se vzdáváme."
+        },
+        {
+          "id": "zaklady-c3",
+          "front": "Pozitivní vs. normativní výrok?",
+          "back": "Pozitivní lze ověřit; normativní říká, co by mělo být."
+        },
+        {
+          "id": "zaklady-c4",
+          "front": "Co značí bod uvnitř PPF?",
+          "back": "Neefektivní využití dostupných zdrojů."
+        },
+        {
+          "id": "zaklady-x-c1",
+          "front": "Co posune PPF ven?",
+          "back": "Více zdrojů nebo produktivnější technologie, které umožní vyšší dosažitelný výstup."
+        },
+        {
+          "id": "zaklady-x-c2",
+          "front": "Proč se alternativní náklady nesčítají?",
+          "back": "Počítá se hodnota nejlepší nevybrané možnosti, ne všech možností najednou."
+        }
+      ],
+      "questions": [
+        {
+          "stem": "Co nejlépe vystihuje náklad obětované příležitosti?",
+          "options": [
+            "Všechny výdaje na vybranou možnost",
+            "Hodnota nejlepší odmítnuté alternativy",
+            "Součet všech možných výdělků",
+            "Pouze finanční cena volby"
+          ],
+          "answer": 1,
+          "explanation": "Při volbě se vzdáváme nejlepší jiné dostupné možnosti.",
+          "level": 1,
+          "id": "zaklady-q1"
+        },
+        {
+          "stem": "Který výrok je normativní?",
+          "options": [
+            "Nezaměstnanost dosáhla 4 %.",
+            "Inflace se proti loňsku snížila.",
+            "Stát by měl zvýšit podporu studentů.",
+            "Průměrná mzda meziročně vzrostla."
+          ],
+          "answer": 2,
+          "explanation": "Slovo „měl“ vyjadřuje žádoucí stav; jde o hodnotové tvrzení.",
+          "level": 1,
+          "id": "zaklady-q2"
+        },
+        {
+          "stem": "Co vyjadřuje bod pod hranicí produkčních možností?",
+          "options": [
+            "Nedosažitelnou kombinaci",
+            "Efektivní kombinaci",
+            "Nevyužité zdroje",
+            "Maximální produkci obou statků"
+          ],
+          "answer": 2,
+          "explanation": "Bod uvnitř PPF lze při daných zdrojích zlepšit.",
+          "level": 1,
+          "id": "zaklady-q3"
+        },
+        {
+          "stem": "Co patří mezi výrobní faktory?",
+          "options": [
+            "Práce, půda a kapitál",
+            "Daň, clo a dotace",
+            "Poptávka, nabídka a cena",
+            "Spotřeba, úspora a inflace"
+          ],
+          "answer": 0,
+          "explanation": "Práce, půda a kapitál se používají při výrobě statků a služeb.",
+          "level": 1,
+          "id": "zaklady-q4"
+        },
+        {
+          "stem": "Která změna může posunout hranici produkčních možností ven?",
+          "options": [
+            "Pokles využití strojů",
+            "Zlepšení technologie",
+            "Pouhý přesun produkce mezi statky",
+            "Přesun do bodu uvnitř hranice"
+          ],
+          "answer": 1,
+          "explanation": "Nová technologie umožní více výstupu ze stejných vstupů.",
+          "level": 2,
+          "id": "zaklady-q5"
+        },
+        {
+          "stem": "Jaké otázky řeší základní ekonomický problém?",
+          "options": [
+            "Kdo vyhraje, kdo prohraje a proč",
+            "Co, jak a pro koho vyrábět",
+            "Kdy, kde a proč spořit",
+            "Kolik, kde a kdy utratit"
+          ],
+          "answer": 1,
+          "explanation": "Ekonomika rozhoduje o výběru produktů, metod výroby a rozdělení výsledků.",
+          "level": 1,
+          "id": "zaklady-q6"
+        },
+        {
+          "id": "zaklady-x-q1",
+          "stem": "Student může získat za jednu směnu 1 200 Kč, za doučování 900 Kč. Vybere celodenní učení. Jaký je peněžní náklad obětované příležitosti?",
+          "options": [
+            "900 Kč",
+            "1 200 Kč",
+            "2 100 Kč",
+            "0 Kč"
+          ],
+          "answer": 1,
+          "explanation": "Nejlepší odmítnutou alternativou je brigáda za 1 200 Kč.",
+          "level": 2
+        },
+        {
+          "id": "zaklady-x-q2",
+          "stem": "Podnik je pod hranicí produkčních možností. Co to znamená?",
+          "options": [
+            "Zdroje využívá plně efektivně",
+            "Vyrábí nemožnou kombinaci",
+            "Část zdrojů nebo kapacit nevyužívá",
+            "Nutně vyrábí příliš mnoho"
+          ],
+          "answer": 2,
+          "explanation": "Bod uvnitř PPF znamená dosažitelnou, ale neefektivní kombinaci.",
+          "level": 2
+        },
+        {
+          "id": "zaklady-x-q3",
+          "stem": "Které tvrzení patří do pozitivní ekonomie?",
+          "options": [
+            "Vláda by měla zvýšit daně",
+            "Ceny bydlení v minulém roce vzrostly o 5 %",
+            "Stát má vždy podporovat bydlení",
+            "Je spravedlivé danit bohatší více"
+          ],
+          "answer": 1,
+          "explanation": "Pozitivní výrok má empiricky ověřitelný obsah.",
+          "level": 2
+        }
+      ],
+      "deepDive": {
+        "title": "Rozhodování při omezených zdrojích",
+        "lead": "Ekonomické rozhodnutí není jen srovnání cen. Vždy porovnáváme, co získáme, s nejlepší variantou, kterou tím ztrácíme.",
+        "steps": [
+          "Urči omezený zdroj: peníze, čas, kapacitu nebo materiál.",
+          "Vyjmenuj reálně dostupné alternativy, ne všechny představitelné možnosti.",
+          "Zvol nejlepší z nevybraných variant. Její hodnota je nákladem obětované příležitosti.",
+          "Zvaž, zda by technologická změna mohla posunout hranici produkčních možností ven."
+        ],
+        "formula": "PPF: efektivní kombinace leží na hranici; dostupná neefektivní kombinace leží pod ní.",
+        "challenge": "Máš volné odpoledne. Brigáda vynese 800 Kč, doučování 600 Kč. Vybereš studium. Jaké jsou náklady obětované příležitosti v penězích?",
+        "solution": "800 Kč, pokud je brigáda nejlepší dostupnou odmítnutou alternativou. Nesčítáme 800 + 600 Kč."
+      }
+    },
+    {
+      "id": "trzni-mechanismus",
+      "order": 2,
+      "title": "Trh a tržní mechanismus",
+      "blurb": "Poptávka, nabídka, jejich posuny, rovnováha a cenová elasticita.",
+      "minutes": 15,
+      "objectives": [
+        "Rozlišit pohyb po křivce a posun celé křivky.",
+        "Určit vliv změny poptávky na cenu a množství.",
+        "Vysvětlit význam elasticity."
+      ],
+      "sections": [
+        {
+          "heading": "Poptávka a nabídka",
+          "body": "Při ostatních nezměněných podmínkách platí, že s vyšší cenou poptávané množství obvykle klesá a nabízené množství roste. Tržní cena se ustavuje vzájemným působením prodávajících a kupujících."
+        },
+        {
+          "heading": "Pohyb versus posun",
+          "body": "Změna vlastní ceny výrobku způsobuje pohyb po dané poptávkové nebo nabídkové křivce. Změna důchodu, preferencí, cen vstupů či technologie může posunout celou křivku."
+        },
+        {
+          "heading": "Elasticita",
+          "body": "Cenová elasticita poptávky popisuje procentní reakci poptávaného množství na procentní změnu ceny. Nízká absolutní elasticita znamená, že množství reaguje slabě."
+        }
+      ],
+      "example": {
+        "title": "Trh s pečivem",
+        "situation": "Nová pec sníží pekárnám náklady na kus pečiva.",
+        "reasoning": "Při každé ceně mohou nabízet více; nabídka se posouvá doprava.",
+        "conclusion": "Při nezměněné poptávce bývá výsledkem nižší rovnovážná cena a vyšší množství."
+      },
+      "pitfall": "Když se zvýší cena výrobku, poptávková křivka se sama o sobě neposouvá: mění se poptávané množství na stávající křivce.",
+      "source": "Sýkora: Trh a tržní mechanismus, seminář č. 2; Dohnalová a Dobeš: Mikroekonomie I (2013).",
+      "cards": [
+        {
+          "id": "trzni-mechanismus-c1",
+          "front": "Co je rovnovážná cena?",
+          "back": "Cena, při které se poptávané množství rovná nabízenému."
+        },
+        {
+          "id": "trzni-mechanismus-c2",
+          "front": "Co posouvá poptávku?",
+          "back": "Například změna důchodů, preferencí nebo cen souvisejících statků."
+        },
+        {
+          "id": "trzni-mechanismus-c3",
+          "front": "Co je cenová elasticita?",
+          "back": "Poměr procentní změny množství k procentní změně ceny."
+        },
+        {
+          "id": "trzni-mechanismus-c4",
+          "front": "Jak se liší posun nabídky od pohybu po nabídce?",
+          "back": "Posun mění podmínky nabídky; pohyb vyvolá změna vlastní ceny."
+        },
+        {
+          "id": "trzni-mechanismus-x-c1",
+          "front": "Co se mění při růstu vlastní ceny statku?",
+          "back": "Poptávané množství po dané křivce, ne nutně celá poptávka."
+        },
+        {
+          "id": "trzni-mechanismus-x-c2",
+          "front": "Co nastane při růstu poptávky a nezměněné nabídce?",
+          "back": "V jednoduchém konkurenčním modelu vyšší rovnovážná cena i množství."
+        }
+      ],
+      "questions": [
+        {
+          "stem": "Co se při růstu vlastní ceny statku obvykle stane s poptávaným množstvím?",
+          "options": [
+            "Vzroste",
+            "Klesne",
+            "Zůstane vždy stejné",
+            "Poptávková křivka se posune doprava"
+          ],
+          "answer": 1,
+          "explanation": "Při nezměněných ostatních faktorech se pohybujeme po klesající poptávkové křivce.",
+          "level": 1,
+          "id": "trzni-mechanismus-q1"
+        },
+        {
+          "stem": "Která událost může posunout nabídku zboží doprava?",
+          "options": [
+            "Zvýšení ceny výrobku",
+            "Zvýšení mzdových nákladů výroby",
+            "Zlevnění vstupů do výroby",
+            "Zákaz nové technologie"
+          ],
+          "answer": 2,
+          "explanation": "Nižší výrobní náklady umožní nabízet více při stejné ceně.",
+          "level": 1,
+          "id": "trzni-mechanismus-q2"
+        },
+        {
+          "stem": "Při ceně pod rovnováhou vzniká na standardním trhu spíše…",
+          "options": [
+            "Nedostatek zboží",
+            "Přebytek zboží",
+            "Zánik poptávky",
+            "Dokonalá konkurence"
+          ],
+          "answer": 0,
+          "explanation": "Poptávané množství převyšuje nabízené.",
+          "level": 1,
+          "id": "trzni-mechanismus-q3"
+        },
+        {
+          "stem": "Poptávka má absolutní cenovou elasticitu 0,4. Jde o poptávku…",
+          "options": [
+            "Elastickou",
+            "Jednotkově elastickou",
+            "Dokonale elastickou",
+            "Neelastickou"
+          ],
+          "answer": 3,
+          "explanation": "Absolutní elasticita menší než 1 znamená slabší procentní reakci množství.",
+          "level": 1,
+          "id": "trzni-mechanismus-q4"
+        },
+        {
+          "stem": "Při nezměněné nabídce roste poptávka. Co typicky nastane?",
+          "options": [
+            "Nižší cena a nižší množství",
+            "Vyšší cena a vyšší množství",
+            "Nižší cena a vyšší množství",
+            "Vyšší cena a nižší množství"
+          ],
+          "answer": 1,
+          "explanation": "Posun poptávky doprava zvýší rovnovážnou cenu i množství.",
+          "level": 2,
+          "id": "trzni-mechanismus-q5"
+        },
+        {
+          "stem": "Co vyvolá pohyb po existující nabídkové křivce?",
+          "options": [
+            "Změna technologie",
+            "Změna vlastní ceny produktu",
+            "Změna daně z výroby",
+            "Změna ceny energií"
+          ],
+          "answer": 1,
+          "explanation": "Samotná cena výstupu mění nabízené množství; ostatní faktory posouvají nabídku.",
+          "level": 1,
+          "id": "trzni-mechanismus-q6"
+        },
+        {
+          "id": "trzni-mechanismus-x-q1",
+          "stem": "Poptávka Qd = 100 − 2P a nabídka Qs = 20 + 2P. Jaká je rovnovážná cena?",
+          "options": [
+            "10",
+            "15",
+            "20",
+            "40"
+          ],
+          "answer": 2,
+          "explanation": "Srovnáme obě funkce: 100 − 2P = 20 + 2P, takže P = 20.",
+          "level": 3
+        },
+        {
+          "id": "trzni-mechanismus-x-q2",
+          "stem": "Káva zdraží a ostatní vlivy se nemění. Co nastává u poptávky po kávě?",
+          "options": [
+            "Posun celé křivky doprava",
+            "Posun celé křivky doleva",
+            "Pohyb po křivce poptávky",
+            "Posun křivky nabídky"
+          ],
+          "answer": 2,
+          "explanation": "Změna vlastní ceny vyvolá pohyb po existující křivce poptávky.",
+          "level": 2
+        },
+        {
+          "id": "trzni-mechanismus-x-q3",
+          "stem": "Při nezměněné nabídce vzroste poptávka po jízdních kolech. Co v běžném modelu nastane?",
+          "options": [
+            "Cena i množství vzrostou",
+            "Cena klesne, množství vzroste",
+            "Cena i množství klesnou",
+            "Změní se jen množství"
+          ],
+          "answer": 0,
+          "explanation": "Posun poptávky doprava vede po rostoucí nabídce k vyšší ceně a množství.",
+          "level": 2
+        }
+      ],
+      "deepDive": {
+        "title": "Rozlišuj pohyb po křivce a její posun",
+        "lead": "Změna vlastní ceny výrobku a změna poptávky nejsou totéž. Tento rozdíl se v testech objevuje často.",
+        "steps": [
+          "Když se mění pouze cena produktu, pohybujeme se po stávající křivce poptávky.",
+          "Když se změní příjem, preference nebo cena souvisejícího statku, posune se celá křivka.",
+          "Při dané nabídce růst poptávky zvyšuje rovnovážnou cenu i množství.",
+          "Rozlišuj nabídku firem od nabízeného množství při určité ceně."
+        ],
+        "formula": "Qd = a − bP; Qs = c + dP; rovnováha nastane při Qd = Qs.",
+        "challenge": "Poptávka je Qd = 100 − 2P a nabídka Qs = 20 + 2P. Jaká je rovnovážná cena?",
+        "solution": "100 − 2P = 20 + 2P, tedy 80 = 4P. Rovnovážná cena P = 20 a množství Q = 60."
+      }
+    },
+    {
+      "id": "spotrebitel",
+      "order": 3,
+      "title": "Spotřebitel a poptávka",
+      "blurb": "Užitek, mezní užitek, rozpočtové omezení, indiferenční křivky.",
+      "minutes": 15,
+      "objectives": [
+        "Rozlišit celkový a mezní užitek.",
+        "Popsat roli rozpočtového omezení.",
+        "Vysvětlit substituční a důchodový efekt změny ceny."
+      ],
+      "sections": [
+        {
+          "heading": "Užitek",
+          "body": "Celkový užitek vyjadřuje celkové uspokojení spotřebitele. Mezní užitek je dodatečné uspokojení z další jednotky; často klesá, když spotřebováváme stále více stejného statku."
+        },
+        {
+          "heading": "Rozpočet a volba",
+          "body": "Spotřebitel chce dosáhnout co nejvyššího uspokojení s omezeným důchodem. Rozpočtová přímka ukazuje dostupné kombinace statků při daných cenách a příjmu."
+        },
+        {
+          "heading": "Indiferenční křivky",
+          "body": "Každý bod na jedné indiferenční křivce představuje spotřebiteli stejně preferovanou kombinaci dvou statků. Optimální volba bývá v bodě dotyku dosažitelné indiferenční křivky s rozpočtovou přímkou."
+        }
+      ],
+      "example": {
+        "title": "První a čtvrtá káva",
+        "situation": "První káva po ránu tě potěší víc než čtvrtá za sebou.",
+        "reasoning": "Celkový užitek ještě může růst, ale dodatečný užitek z další kávy klesá.",
+        "conclusion": "Nezaměňuj přírůstek užitku s celkovým užitkem."
+      },
+      "pitfall": "Klesající mezní užitek neznamená, že každá další jednotka má záporný užitek.",
+      "source": "Sýkora: Chování spotřebitele a formování poptávky, seminář č. 3; Dohnalová a Dobeš: Mikroekonomie I (2013).",
+      "cards": [
+        {
+          "id": "spotrebitel-c1",
+          "front": "Co vyjadřuje mezní užitek?",
+          "back": "Přírůstek celkového užitku při spotřebě další jednotky."
+        },
+        {
+          "id": "spotrebitel-c2",
+          "front": "Co omezuje spotřebitelovu volbu?",
+          "back": "Důchod a ceny jednotlivých statků."
+        },
+        {
+          "id": "spotrebitel-c3",
+          "front": "Co znamená indiferenční křivka?",
+          "back": "Kombinace statků, které spotřebitel považuje za stejně dobré."
+        },
+        {
+          "id": "spotrebitel-c4",
+          "front": "Co je substituční efekt?",
+          "back": "Změna spotřeby v důsledku změny relativních cen při kompenzované kupní síle."
+        },
+        {
+          "id": "spotrebitel-x-c1",
+          "front": "Jak vypočítat mezní užitek?",
+          "back": "MU = změna celkového užitku / změna spotřebovaného množství."
+        },
+        {
+          "id": "spotrebitel-x-c2",
+          "front": "Kdy je poptávka cenově neelastická?",
+          "back": "Když absolutní hodnota cenové elasticity poptávky je menší než 1."
+        }
+      ],
+      "questions": [
+        {
+          "stem": "Mezní užitek druhé sušenky je…",
+          "options": [
+            "Celkový užitek z obou sušenek",
+            "Změna užitku po snědení druhé sušenky",
+            "Cena druhé sušenky",
+            "Užitek všech dostupných statků"
+          ],
+          "answer": 1,
+          "explanation": "Mezní užitek měří přírůstek oproti předchozí spotřebě.",
+          "level": 1,
+          "id": "spotrebitel-q1"
+        },
+        {
+          "stem": "Co ukazuje rozpočtová přímka?",
+          "options": [
+            "Pouze nejdražší nákupy",
+            "Množství výrobků na trhu",
+            "Dostupné kombinace dvou statků při daném příjmu a cenách",
+            "Počet nakupujících"
+          ],
+          "answer": 2,
+          "explanation": "Všechny body na přímce vyčerpávají rozpočet při daných cenách.",
+          "level": 1,
+          "id": "spotrebitel-q2"
+        },
+        {
+          "stem": "Když se zvýší příjem a ceny se nezmění, rozpočtová přímka se obvykle…",
+          "options": [
+            "Posune rovnoběžně ven",
+            "Posune rovnoběžně dovnitř",
+            "Nutně otočí kolem počátku",
+            "Změní v indiferenční křivku"
+          ],
+          "answer": 0,
+          "explanation": "Vyšší příjem umožňuje více obou statků při stejných cenách.",
+          "level": 1,
+          "id": "spotrebitel-q3"
+        },
+        {
+          "stem": "Co platí pro body na stejné indiferenční křivce?",
+          "options": [
+            "Mají stejnou cenu",
+            "Poskytují stejnou úroveň preferovaného užitku",
+            "Vyžadují stejné množství každého statku",
+            "Všechny jsou dostupné"
+          ],
+          "answer": 1,
+          "explanation": "Indiferenční křivka spojuje stejně preferované kombinace.",
+          "level": 1,
+          "id": "spotrebitel-q4"
+        },
+        {
+          "stem": "Při rostoucí spotřebě jedné potraviny mezní užitek typicky…",
+          "options": [
+            "Zůstává vždy stejný",
+            "Neustále roste",
+            "Klesá",
+            "Je automaticky záporný"
+          ],
+          "answer": 2,
+          "explanation": "Zákon klesajícího mezního užitku popisuje klesající dodatečné uspokojení.",
+          "level": 1,
+          "id": "spotrebitel-q5"
+        },
+        {
+          "stem": "Substituční efekt při zlevnění statku znamená, že spotřebitel…",
+          "options": [
+            "Tento statek relativně častěji volí místo alternativ",
+            "Má vždy nižší nominální příjem",
+            "Musí přestat nakupovat ostatní statky",
+            "Přestane řešit relativní ceny"
+          ],
+          "answer": 0,
+          "explanation": "Zlevněný statek se vůči alternativám stává výhodnějším.",
+          "level": 2,
+          "id": "spotrebitel-q6"
+        },
+        {
+          "id": "spotrebitel-x-q1",
+          "stem": "Cena stoupne o 10 % a požadované množství klesne o 5 %. Jaká je přibližná absolutní elasticita?",
+          "options": [
+            "0,5",
+            "1",
+            "2",
+            "5"
+          ],
+          "answer": 0,
+          "explanation": "Při jednoduché procentní aproximaci |Ed| = 5/10 = 0,5.",
+          "level": 3
+        },
+        {
+          "id": "spotrebitel-x-q2",
+          "stem": "Celkový užitek vzrostl po další porci z 18 na 24. Jaký je mezní užitek porce?",
+          "options": [
+            "24",
+            "18",
+            "6",
+            "42"
+          ],
+          "answer": 2,
+          "explanation": "Mezní užitek je dodatečný přírůstek TU: 24 − 18 = 6.",
+          "level": 2
+        },
+        {
+          "id": "spotrebitel-x-q3",
+          "stem": "Spotřebitel má daný rozpočet a zboží A zdraží. Co se změní bez dalších předpokladů?",
+          "options": [
+            "Rozpočtové omezení se otočí směrem dovnitř na ose A",
+            "Rozpočet v korunách vždy vzroste",
+            "Cena zboží B se automaticky změní",
+            "Preference spotřebitele se nutně změní"
+          ],
+          "answer": 0,
+          "explanation": "Za stejný rozpočet si může koupit méně A, zatímco cenový průsečík pro B zůstane.",
+          "level": 3
+        }
+      ],
+      "deepDive": {
+        "title": "Užitek, omezený rozpočet a reakce na cenu",
+        "lead": "Spotřebitel se rozhoduje pod rozpočtovým omezením. Mezní užitek vysvětluje, proč další jednotka téhož výrobku obvykle přinese menší přínos.",
+        "steps": [
+          "Celkový užitek TU se s další spotřebou může zvyšovat, ale stále pomaleji.",
+          "Mezní užitek MU je přírůstek TU z jedné další jednotky.",
+          "Při daných cenách a rozpočtu spotřebitel porovnává užitek poslední utracené koruny mezi statky.",
+          "Cenová elasticita měří relativní změnu poptávaného množství vůči relativní změně ceny."
+        ],
+        "formula": "MU = ΔTU/ΔQ; |Ed| = |(%ΔQd)/(%ΔP)| (zjednodušeně pro malé změny).",
+        "challenge": "Cena vzroste o 10 % a poptávané množství klesne o 5 %. Je poptávka elastická?",
+        "solution": "|Ed| ≈ 5/10 = 0,5. Poptávka je cenově neelastická (při zjednodušeném procentním výpočtu)."
+      }
+    },
+    {
+      "id": "firma",
+      "order": 4,
+      "title": "Firma, výroba a náklady",
+      "blurb": "Produkční funkce, mezní produkt, fixní a variabilní náklady, MR a MC.",
+      "minutes": 15,
+      "objectives": [
+        "Rozlišit krátké a dlouhé období.",
+        "Vypočítat a interpretovat mezní náklady a mezní produkt.",
+        "Propojit produkci s maximalizací zisku."
+      ],
+      "sections": [
+        {
+          "heading": "Vstupy a výstup",
+          "body": "Produkční funkce Q = f(K, L) ukazuje vztah mezi kapitálem, prací a produkcí. V krátkém období je alespoň jeden vstup fixní; v dlouhém období lze měnit všechny vstupy."
+        },
+        {
+          "heading": "Náklady",
+          "body": "Fixní náklady (FC) se s objemem výroby v daném období nemění. Variabilní náklady (VC) naopak reagují na produkci. Celkové náklady TC = FC + VC. Mezní náklady MC ukazují náklad na další jednotku produkce."
+        },
+        {
+          "heading": "Rozhodnutí o produkci",
+          "body": "Firma maximalizující zisk volí produkci, kde se mezní příjem MR rovná mezním nákladům MC, splňují-li se příslušné podmínky. Před dosažením tohoto bodu se zvýšení výroby může vyplatit, pokud MR > MC."
+        }
+      ],
+      "example": {
+        "title": "Malá pekárna",
+        "situation": "Pekař má jednu pec a přijme dalšího pracovníka.",
+        "reasoning": "První další pracovník může zvýšit výstup výrazně, ale později se lidé u jedné pece překážejí.",
+        "conclusion": "Mezní produkt dalšího pracovníka při fixním kapitálu může postupně klesat."
+      },
+      "pitfall": "Mezní náklad není totéž co průměrný náklad; rozhodnutí o poslední jednotce vyžaduje sledovat přírůstek.",
+      "source": "Sýkora: Nabídka na trhu výrobků a služeb, seminář č. 4; Dohnalová a Dobeš: Mikroekonomie I (2013).",
+      "cards": [
+        {
+          "id": "firma-c1",
+          "front": "Produkční funkce?",
+          "back": "Vztah mezi vstupy (např. prací a kapitálem) a množstvím produkce."
+        },
+        {
+          "id": "firma-c2",
+          "front": "Fixní vs. variabilní náklad?",
+          "back": "Fixní se v daném období nemění s Q, variabilní ano."
+        },
+        {
+          "id": "firma-c3",
+          "front": "MC je…",
+          "back": "Přírůstek celkových nákladů na další jednotku produkce."
+        },
+        {
+          "id": "firma-c4",
+          "front": "Pravidlo maximalizace zisku?",
+          "back": "Při vnitřním optimu MR = MC."
+        },
+        {
+          "id": "firma-x-c1",
+          "front": "Co je fixní vstup v krátkém období?",
+          "back": "Vstup, který firma v daném horizontu nemůže měnit, např. velikost výrobní haly."
+        },
+        {
+          "id": "firma-x-c2",
+          "front": "Jak vypočítat mezní náklady?",
+          "back": "MC = přírůstek celkových nákladů / přírůstek produkce."
+        }
+      ],
+      "questions": [
+        {
+          "stem": "Který náklad bývá v krátkém období fixní?",
+          "options": [
+            "Spotřebovaná mouka",
+            "Úkolová mzda výrobního dělníka",
+            "Nájem výrobní haly",
+            "Spotřeba materiálu na kus"
+          ],
+          "answer": 2,
+          "explanation": "Nájem haly se krátkodobě nemění s počtem vyrobených kusů.",
+          "level": 1,
+          "id": "firma-q1"
+        },
+        {
+          "stem": "Jaké pravidlo určuje vnitřní optimum produkce firmy maximalizující zisk?",
+          "options": [
+            "MR = MC",
+            "P = 0",
+            "TC = VC",
+            "FC = MC"
+          ],
+          "answer": 0,
+          "explanation": "Firma porovnává přírůstek příjmů a nákladů další jednotky.",
+          "level": 1,
+          "id": "firma-q2"
+        },
+        {
+          "stem": "Při nárůstu výroby z 10 na 11 kusů vzrostou náklady z 900 na 980 Kč. Mezní náklad posledního kusu je…",
+          "options": [
+            "980 Kč",
+            "90 Kč",
+            "80 Kč",
+            "1 880 Kč"
+          ],
+          "answer": 2,
+          "explanation": "MC = změna TC / změna Q = (980 − 900) / 1 = 80 Kč.",
+          "level": 2,
+          "id": "firma-q3"
+        },
+        {
+          "stem": "Co vyjadřuje mezní produkt práce?",
+          "options": [
+            "Přírůstek produkce po přidání jednotky práce",
+            "Příjem firmy ze všech zaměstnanců",
+            "Průměrnou mzdu",
+            "Náklady na stroje"
+          ],
+          "answer": 0,
+          "explanation": "MP práce vyjadřuje dodatečný výstup další jednotky práce.",
+          "level": 1,
+          "id": "firma-q4"
+        },
+        {
+          "stem": "Když jsou FC = 400 Kč a VC = 600 Kč, celkové náklady jsou…",
+          "options": [
+            "200 Kč",
+            "1 000 Kč",
+            "600 Kč",
+            "2 400 Kč"
+          ],
+          "answer": 1,
+          "explanation": "TC = FC + VC = 400 + 600 = 1 000 Kč.",
+          "level": 1,
+          "id": "firma-q5"
+        },
+        {
+          "stem": "Co platí o dlouhém období v teorii firmy?",
+          "options": [
+            "Všechny výrobní vstupy mohou být variabilní",
+            "Mzdy musí být fixní",
+            "Všechny firmy mají nulové náklady",
+            "Nelze změnit kapacitu"
+          ],
+          "answer": 0,
+          "explanation": "Dlouhé období umožňuje měnit i kapitál a výrobní kapacitu.",
+          "level": 1,
+          "id": "firma-q6"
+        },
+        {
+          "id": "firma-x-q1",
+          "stem": "Náklady na 10 kusů jsou 1 000 Kč a na 11 kusů 1 080 Kč. Jaké jsou mezní náklady 11. kusu?",
+          "options": [
+            "8 Kč",
+            "80 Kč",
+            "1 080 Kč",
+            "180 Kč"
+          ],
+          "answer": 1,
+          "explanation": "Mezní náklady = 1 080 − 1 000 = 80 Kč.",
+          "level": 2
+        },
+        {
+          "id": "firma-x-q2",
+          "stem": "Co je v krátkém období v mikroekonomickém modelu fixní?",
+          "options": [
+            "Všechny vstupy",
+            "Alespoň jeden vstup",
+            "Všechny mzdy",
+            "Veškeré ceny"
+          ],
+          "answer": 1,
+          "explanation": "Krátké období je definováno existencí alespoň jednoho fixního vstupu.",
+          "level": 2
+        },
+        {
+          "id": "firma-x-q3",
+          "stem": "Firma vyrábí další kus, u něhož MR = 50 Kč a MC = 40 Kč. Co má při běžných podmínkách tendenci udělat?",
+          "options": [
+            "Snížit výrobu",
+            "Rozšířit výrobu",
+            "Zavřít provoz bez ohledu na ostatní náklady",
+            "Zachovat nezměněnou výrobu vždy"
+          ],
+          "answer": 1,
+          "explanation": "Dodatečný kus zvyšuje zisk o rozdíl MR − MC = 10 Kč.",
+          "level": 2
+        }
+      ],
+      "deepDive": {
+        "title": "Krátké období, mezní produkt a náklady",
+        "lead": "Firma nejprve řeší, jak z daného vybavení vyrobit potřebný výstup. Pak porovnává, kolik stojí poslední jednotka výroby a kolik za ni získá.",
+        "steps": [
+          "V krátkém období je alespoň jeden výrobní vstup fixní; typicky kapacita stroje nebo provozovny.",
+          "S přidáváním práce k fixní kapacitě po určitém bodě mezní produkt zpravidla klesá.",
+          "Fixní náklady se s objemem produkce v krátkém období nemění, variabilní náklady ano.",
+          "Vnitřní optimum firmy maximalizující zisk splňuje MR = MC, pokud jsou splněny podmínky optima."
+        ],
+        "formula": "MC = ΔTC/ΔQ; AC = TC/Q; zisk π = TR − TC.",
+        "challenge": "Výroba 10 kusů stojí 1 000 Kč a výroba 11 kusů stojí 1 080 Kč. Jaké jsou mezní náklady 11. kusu?",
+        "solution": "MC = (1 080 − 1 000) / (11 − 10) = 80 Kč za dodatečný kus."
+      }
+    },
+    {
+      "id": "dokonala-konkurence",
+      "order": 5,
+      "title": "Dokonalá konkurence",
+      "blurb": "Model cenového příjemce, rovnováha firmy a dlouhodobé přizpůsobení.",
+      "minutes": 15,
+      "objectives": [
+        "Určit rozdíl mezi trhem a jednotlivou firmou.",
+        "Použít podmínku P = MR = MC.",
+        "Odlišit ekonomický od účetního zisku."
+      ],
+      "sections": [
+        {
+          "heading": "Cenový příjemce",
+          "body": "Dokonale konkurenční firma je malá vzhledem k trhu, prodává homogenní produkt a nemůže ovlivnit tržní cenu. Pro jednotlivou firmu platí P = MR = AR."
+        },
+        {
+          "heading": "Optimální množství",
+          "body": "Pro vnitřní optimum firmy, která maximalizuje zisk, platí P = MC na rostoucí části příslušné křivky MC. V krátkém období může firma vyrábět i při ekonomické ztrátě, pokud pokryje variabilní náklady."
+        },
+        {
+          "heading": "Dlouhé období",
+          "body": "Volný vstup a výstup firem vede za standardních předpokladů k nulovému ekonomickému zisku. To neznamená nulový účetní zisk: náklady příležitosti jsou již zahrnuté v ekonomických nákladech."
+        }
+      ],
+      "example": {
+        "title": "Pěstitel obilí",
+        "situation": "Farmář prodává téměř identické obilí za tržní cenu, kterou sám neovlivní.",
+        "reasoning": "Další tunu vyrobí jen pokud příjem z ní pokryje mezní náklady.",
+        "conclusion": "Cenu určuje trh, firma volí hlavně množství."
+      },
+      "pitfall": "Nulový ekonomický zisk není totéž co „firma nic nevydělává“: zahrnuje obvyklou odměnu alternativních zdrojů.",
+      "source": "Sýkora: Firma v podmínkách dokonalé konkurence, seminář č. 5; Dohnalová a Dobeš: Mikroekonomie I (2013).",
+      "cards": [
+        {
+          "id": "dokonala-konkurence-c1",
+          "front": "Co znamená cenový příjemce?",
+          "back": "Jednotlivá firma přijímá tržní cenu jako danou."
+        },
+        {
+          "id": "dokonala-konkurence-c2",
+          "front": "Co platí pro MR firmy?",
+          "back": "V dokonalé konkurenci MR = P."
+        },
+        {
+          "id": "dokonala-konkurence-c3",
+          "front": "Kdy firma krátkodobě přeruší výrobu?",
+          "back": "Při ceně pod minimem průměrných variabilních nákladů (ve standardním modelu)."
+        },
+        {
+          "id": "dokonala-konkurence-c4",
+          "front": "Co znamená nulový ekonomický zisk?",
+          "back": "Výnosy pokryjí explicitní i implicitní ekonomické náklady."
+        },
+        {
+          "id": "dokonala-konkurence-x-c1",
+          "front": "Proč je dokonale konkurenční firma cenový příjemce?",
+          "back": "Je příliš malá na to, aby změnila tržní cenu homogenního produktu."
+        },
+        {
+          "id": "dokonala-konkurence-x-c2",
+          "front": "Jaké je krátkodobé uzavírací pravidlo?",
+          "back": "Pokud cena nepokryje průměrné variabilní náklady, je zpravidla výhodnější dočasně nevyrábět."
+        }
+      ],
+      "questions": [
+        {
+          "stem": "Jak se chová jednotlivá dokonale konkurenční firma vůči ceně?",
+          "options": [
+            "Sama ji běžně stanovuje",
+            "Přijímá ji z trhu",
+            "Určuje ji vládním nařízením",
+            "Mění ji bez dopadu na prodej"
+          ],
+          "answer": 1,
+          "explanation": "Jednotlivá firma má vzhledem k trhu zanedbatelnou tržní sílu.",
+          "level": 1,
+          "id": "dokonala-konkurence-q1"
+        },
+        {
+          "stem": "Co v dokonalé konkurenci platí pro mezní příjem MR?",
+          "options": [
+            "MR = P",
+            "MR je vždy nulový",
+            "MR je vždy vyšší než P",
+            "MR = FC"
+          ],
+          "answer": 0,
+          "explanation": "Další jednotka se prodá za danou tržní cenu.",
+          "level": 1,
+          "id": "dokonala-konkurence-q2"
+        },
+        {
+          "stem": "Jaký vztah platí pro vnitřní optimum produkce firmy v dokonalé konkurenci?",
+          "options": [
+            "P = MC",
+            "P = FC",
+            "AR = AVC vždy",
+            "VC = 0"
+          ],
+          "answer": 0,
+          "explanation": "P = MR a pro optimum MR = MC.",
+          "level": 1,
+          "id": "dokonala-konkurence-q3"
+        },
+        {
+          "stem": "Když cena klesne pod minimum AVC, firma v krátkém období typicky…",
+          "options": [
+            "Zvýší produkci",
+            "Přeruší výrobu",
+            "Vstoupí na nový trh",
+            "Vyrábí maximálně"
+          ],
+          "answer": 1,
+          "explanation": "Příjmy nepokryjí ani variabilní náklady produkce.",
+          "level": 2,
+          "id": "dokonala-konkurence-q4"
+        },
+        {
+          "stem": "Dlouhodobý ekonomický zisk ve standardním modelu dokonalé konkurence směřuje k…",
+          "options": [
+            "Trvale vysokému zisku",
+            "Záporné nekonečné ztrátě",
+            "Nule",
+            "Zisku rovnému tržbám"
+          ],
+          "answer": 2,
+          "explanation": "Volný vstup firem při zisku a výstup při ztrátě vytvářejí tlak na nulový ekonomický zisk.",
+          "level": 1,
+          "id": "dokonala-konkurence-q5"
+        },
+        {
+          "stem": "Co je homogenní produkt?",
+          "options": [
+            "Každá firma má odlišný design",
+            "Produkty různých firem jsou pro spotřebitele zaměnitelné",
+            "Produkt je veřejný statek",
+            "Produkt má individuální patent"
+          ],
+          "answer": 1,
+          "explanation": "Dokonalá konkurence předpokládá stejnorodé a zaměnitelné produkty.",
+          "level": 1,
+          "id": "dokonala-konkurence-q6"
+        },
+        {
+          "id": "dokonala-konkurence-x-q1",
+          "stem": "Dokonale konkurenční firma prodává kus za 100 Kč. Kolik činí její MR při prodeji dalšího kusu?",
+          "options": [
+            "50 Kč",
+            "100 Kč",
+            "Závisí na její reklamě",
+            "0 Kč"
+          ],
+          "answer": 1,
+          "explanation": "V dokonalé konkurenci platí P = MR pro firmu cenového příjemce.",
+          "level": 2
+        },
+        {
+          "id": "dokonala-konkurence-x-q2",
+          "stem": "Firma má P = 75 Kč a AVC = 90 Kč. Co v běžném krátkodobém modelu zváží?",
+          "options": [
+            "Zvýšení fixních nákladů",
+            "Dočasné zastavení výroby",
+            "Vstup do monopolu",
+            "Navýšení produkce za každou cenu"
+          ],
+          "answer": 1,
+          "explanation": "Pokud P < AVC, pokračování ve výrobě nezaplatí ani variabilní náklady.",
+          "level": 3
+        },
+        {
+          "id": "dokonala-konkurence-x-q3",
+          "stem": "Jaká křivka poptávky po výstupu platí pro individuální dokonale konkurenční firmu?",
+          "options": [
+            "Vodorovná",
+            "Svislá",
+            "Vždy rostoucí",
+            "Kruhová"
+          ],
+          "answer": 0,
+          "explanation": "Jednotlivá firma může prodávat za danou tržní cenu, a proto je její poptávka dokonale elastická.",
+          "level": 2
+        }
+      ],
+      "deepDive": {
+        "title": "Firma je příjemcem tržní ceny",
+        "lead": "V dokonalé konkurenci jednotlivec nemění tržní cenu. Firma proto volí vyráběné množství podle svých mezních nákladů, nikoli podle vlastní cenové strategie.",
+        "steps": [
+          "Tržní cena vzniká střetem nabídky všech firem a poptávky všech zákazníků.",
+          "Pro jednotlivou malou firmu platí MR = P a křivka její poptávky po výstupu je vodorovná.",
+          "Při zisku maximalizujícím vnitřním optimu volí množství v bodě P = MC.",
+          "V krátkém období porovná cenu i s průměrnými variabilními náklady, než se rozhodne pokračovat ve výrobě."
+        ],
+        "formula": "MR = P; podmínka optima P = MC; krátkodobá podmínka pokračování zpravidla P ≥ AVC.",
+        "challenge": "Tržní cena je 100 Kč, MC příštího kusu 80 Kč. Má firma motivaci produkci rozšířit?",
+        "solution": "Ano, pokud je další jednotka technicky a tržně realizovatelná. Přinese MR = 100 Kč a náklady 80 Kč, tedy zvýší zisk o 20 Kč."
+      }
+    },
+    {
+      "id": "monopol",
+      "order": 6,
+      "title": "Monopol",
+      "blurb": "Tržní síla, bariéry vstupu, mezní příjem a neefektivnost monopolu.",
+      "minutes": 15,
+      "objectives": [
+        "Vysvětlit příčiny vzniku monopolu.",
+        "Rozlišit cenu a mezní příjem.",
+        "Popsat dopad na množství a cenu."
+      ],
+      "sections": [
+        {
+          "heading": "Jediný prodávající",
+          "body": "Monopol ovládá nabídku produktu bez blízkých substitutů. Může vznikat vlivem patentů, kontrolou důležitého zdroje nebo úsporami z rozsahu a bariérami vstupu."
+        },
+        {
+          "heading": "Cenové rozhodnutí",
+          "body": "Monopol čelí klesající tržní poptávce. K prodeji další jednotky obvykle musí snížit cenu, takže mezní příjem MR leží pod cenou P. Optimální množství určí při MR = MC a cenu odečte z poptávky."
+        },
+        {
+          "heading": "Důsledky",
+          "body": "Ve srovnání se standardním konkurenčním modelem monopol typicky omezuje výstup a účtuje vyšší cenu; tím může vznikat ztráta mrtvé váhy."
+        }
+      ],
+      "example": {
+        "title": "Jediná vodárenská síť",
+        "situation": "Budování několika paralelních vodovodních sítí by bylo nákladné.",
+        "reasoning": "Úspory z rozsahu mohou učinit jednoho dodavatele efektivnějším než několik.",
+        "conclusion": "Takový přirozený monopol může podléhat regulaci."
+      },
+      "pitfall": "Monopol není firma, která „může stanovit libovolně vysokou cenu“. Vysokou cenu omezuje ochota zákazníků platit.",
+      "source": "Sýkora: Nedokonalá konkurence – monopol, seminář č. 6; Dohnalová a Dobeš: Mikroekonomie I (2013).",
+      "cards": [
+        {
+          "id": "monopol-c1",
+          "front": "MR ve vztahu k ceně u monopolu?",
+          "back": "Při klesající poptávce MR < P."
+        },
+        {
+          "id": "monopol-c2",
+          "front": "Co jsou bariéry vstupu?",
+          "back": "Překážky omezující vstup nových konkurentů na trh."
+        },
+        {
+          "id": "monopol-c3",
+          "front": "Co je přirozený monopol?",
+          "back": "Situace, kdy jeden producent díky nákladům obslouží trh levněji než několik."
+        },
+        {
+          "id": "monopol-c4",
+          "front": "Jak monopol volí cenu?",
+          "back": "Zvolí množství při MR = MC a odpovídající cenu na poptávkové křivce."
+        },
+        {
+          "id": "monopol-x-c1",
+          "front": "Proč často platí MR < P u monopolu?",
+          "back": "Další prodej vyžaduje nižší cenu, což snižuje příjem i z dřívějších jednotek."
+        },
+        {
+          "id": "monopol-x-c2",
+          "front": "Jak monopol stanoví cenu?",
+          "back": "Po volbě ziskově optimálního množství podle MR = MC odečte cenu z poptávky."
+        }
+      ],
+      "questions": [
+        {
+          "stem": "Který faktor může vytvořit bariéru vstupu do odvětví?",
+          "options": [
+            "Volný vstup všech firem",
+            "Patent na technologii",
+            "Dokonale stejné výrobky",
+            "Dokonalá informovanost"
+          ],
+          "answer": 1,
+          "explanation": "Patent může po omezenou dobu chránit výrobní postup.",
+          "level": 1,
+          "id": "monopol-q1"
+        },
+        {
+          "stem": "Jaký vztah zpravidla platí u monopolu s klesající poptávkou?",
+          "options": [
+            "MR > P",
+            "MR = P vždy",
+            "MR < P",
+            "MR = FC"
+          ],
+          "answer": 2,
+          "explanation": "Zvýšení prodaného množství vyžaduje nižší cenu, často i u dřívějších jednotek.",
+          "level": 1,
+          "id": "monopol-q2"
+        },
+        {
+          "stem": "Monopol maximalizující zisk volí množství zpravidla tam, kde…",
+          "options": [
+            "MR = MC",
+            "P = 0",
+            "P = AC vždy",
+            "TR = TC vždy"
+          ],
+          "answer": 0,
+          "explanation": "I monopol hledá množství, kde se mezní příjem rovná mezním nákladům.",
+          "level": 1,
+          "id": "monopol-q3"
+        },
+        {
+          "stem": "Co je příkladem přirozeného monopolu?",
+          "options": [
+            "Stánky s ovocem",
+            "Distribuční síť s vysokými fixními náklady",
+            "Trh s identickým obilím",
+            "Mnoho nezávislých kaváren"
+          ],
+          "answer": 1,
+          "explanation": "Vysoké fixní náklady sítě a úspory z rozsahu mohou favorizovat jedinou síť.",
+          "level": 1,
+          "id": "monopol-q4"
+        },
+        {
+          "stem": "Co se ve standardním porovnání s dokonalou konkurencí typicky pojí s monopolem?",
+          "options": [
+            "Nižší cena a větší množství",
+            "Stejná cena a výstup",
+            "Vyšší cena a menší množství",
+            "Nulová cena"
+          ],
+          "answer": 2,
+          "explanation": "Tržní síla obvykle vede k omezení výstupu a vyšší ceně.",
+          "level": 2,
+          "id": "monopol-q5"
+        },
+        {
+          "stem": "Ztráta mrtvé váhy monopolu označuje…",
+          "options": [
+            "Daň z monopolního zisku",
+            "Nerealizované vzájemně výhodné obchody",
+            "Veškeré fixní náklady",
+            "Úsporu z reklamy"
+          ],
+          "answer": 1,
+          "explanation": "Část potenciálního společenského přebytku se kvůli omezení množství nevytvoří.",
+          "level": 1,
+          "id": "monopol-q6"
+        },
+        {
+          "id": "monopol-x-q1",
+          "stem": "V typickém modelu monopolu s klesající poptávkou platí…",
+          "options": [
+            "MR = P",
+            "MR > P",
+            "MR < P",
+            "MC = 0"
+          ],
+          "answer": 2,
+          "explanation": "Pro další prodej monopol obvykle snižuje cenu a ztrácí část příjmů z dřívějších prodejů.",
+          "level": 2
+        },
+        {
+          "id": "monopol-x-q2",
+          "stem": "Monopol má při další jednotce MR = 70 Kč a MC = 50 Kč. Jaká změna výroby zvyšuje zisk?",
+          "options": [
+            "Rozšíření o další jednotku",
+            "Snížení výroby bez ohledu na další údaje",
+            "Nulová produkce",
+            "Navýšení fixních nákladů"
+          ],
+          "answer": 0,
+          "explanation": "Přírůstek zisku je MR − MC = 20 Kč.",
+          "level": 2
+        },
+        {
+          "id": "monopol-x-q3",
+          "stem": "Co nejlépe vysvětluje přirozený monopol?",
+          "options": [
+            "Vysoké fixní náklady a úspory z rozsahu",
+            "Dokonalá informovanost všech zákazníků",
+            "Nulové náklady na vstup do odvětví",
+            "Neomezený počet malých firem"
+          ],
+          "answer": 0,
+          "explanation": "Při rozsáhlých úsporách z rozsahu může být efektivnější jedna rozsáhlá síť.",
+          "level": 2
+        }
+      ],
+      "deepDive": {
+        "title": "Proč monopol vyrábí méně než konkurenční trh",
+        "lead": "Monopol má vliv na cenu, ale nemůže si vybrat libovolnou cenu bez omezení: čelí klesající tržní poptávce.",
+        "steps": [
+          "Monopol mění cenu prostřednictvím volby prodaného množství na dané poptávkové křivce.",
+          "Při prodeji dalšího kusu musí často snížit cenu i u předchozích kusů; proto obvykle MR < P.",
+          "Volí množství, kde MR = MC, a cenu odečte z poptávkové křivky.",
+          "Přirozený monopol může vzniknout při silných úsporách z rozsahu, například u síťové infrastruktury."
+        ],
+        "formula": "Monopolní optimum: MR = MC; za běžné klesající poptávky P > MR.",
+        "challenge": "Pro další jednotku má monopol MR = 70 Kč a MC = 50 Kč. Má při běžných podmínkách motivaci rozšířit výstup?",
+        "solution": "Ano. Mezní příjem převyšuje mezní náklady o 20 Kč; další jednotka může zvýšit zisk."
+      }
+    },
+    {
+      "id": "oligopol",
+      "order": 7,
+      "title": "Oligopol",
+      "blurb": "Strategické chování několika velkých firem, konkurence cenou a množstvím.",
+      "minutes": 15,
+      "objectives": [
+        "Popsat vzájemnou závislost firem.",
+        "Rozlišit modely Cournot a Bertrand.",
+        "Rozpoznat kartelovou dohodu."
+      ],
+      "sections": [
+        {
+          "heading": "Trh několika hráčů",
+          "body": "V oligopolu působí několik významných producentů a jejich rozhodnutí se vzájemně ovlivňují. Každá změna ceny či výstupu může vyvolat reakci soupeře."
+        },
+        {
+          "heading": "Způsoby soupeření",
+          "body": "Cournotův model popisuje soutěž v množství, Bertrandův v ceně a Stackelbergův model zahrnuje sekvenční volbu množství a roli vedoucí firmy."
+        },
+        {
+          "heading": "Kartely a teorie her",
+          "body": "Firmy se mohou pokoušet koordinovat ceny nebo množství. Kartel může zvýšit jejich společné zisky, ale cenová či tržní dohoda konkurentů bývá nezákonná. Teorie her ukazuje napětí mezi spoluprací a soutěží."
+        }
+      ],
+      "example": {
+        "title": "Dvě čerpací stanice",
+        "situation": "Jedna stanice zlevní palivo.",
+        "reasoning": "Druhá může reagovat slevou, takže první nezíská výhodu na dlouho.",
+        "conclusion": "V oligopolu nestačí znát vlastní náklady; záleží na očekávané reakci konkurenta."
+      },
+      "pitfall": "Nezaměňuj oligopol a monopolistickou konkurenci: oligopol má několik dominantních hráčů.",
+      "source": "Sýkora: Nedokonalá konkurence – oligopol, seminář č. 7; Dohnalová a Dobeš: Mikroekonomie I (2013).",
+      "cards": [
+        {
+          "id": "oligopol-c1",
+          "front": "Hlavní znak oligopolu?",
+          "back": "Strategická vzájemná závislost malého počtu významných firem."
+        },
+        {
+          "id": "oligopol-c2",
+          "front": "Cournotův model?",
+          "back": "Soutěž v množství produkce."
+        },
+        {
+          "id": "oligopol-c3",
+          "front": "Bertrandův model?",
+          "back": "Soutěž v cenách."
+        },
+        {
+          "id": "oligopol-c4",
+          "front": "Co je kartel?",
+          "back": "Dohoda konkurentů o koordinaci cen, množství nebo trhu."
+        },
+        {
+          "id": "oligopol-x-c1",
+          "front": "Co znamená strategická vzájemná závislost?",
+          "back": "Rozhodnutí firmy ovlivní výsledek konkurenta a jeho reakce zpětně ovlivní první firmu."
+        },
+        {
+          "id": "oligopol-x-c2",
+          "front": "Co je Nashova rovnováha?",
+          "back": "Situace, kdy nikdo nezíská jednostrannou změnou své strategie při strategiích ostatních."
+        }
+      ],
+      "questions": [
+        {
+          "stem": "Čím se především vyznačuje oligopol?",
+          "options": [
+            "Jednou firmou bez konkurence",
+            "Mnoha cenovými příjemci",
+            "Několika vzájemně závislými firmami",
+            "Pouze veřejnými podniky"
+          ],
+          "answer": 2,
+          "explanation": "Rozhodnutí jedné významné firmy ovlivňuje reakce ostatních.",
+          "level": 1,
+          "id": "oligopol-q1"
+        },
+        {
+          "stem": "V Cournotově modelu firmy strategicky volí zejména…",
+          "options": [
+            "Množství",
+            "Výši daně",
+            "Počet spotřebitelů",
+            "Veřejné statky"
+          ],
+          "answer": 0,
+          "explanation": "Cournotův model je modelem soutěže v objemu produkce.",
+          "level": 1,
+          "id": "oligopol-q2"
+        },
+        {
+          "stem": "V Bertrandově modelu firmy soupeří především…",
+          "options": [
+            "Množstvím",
+            "Cenou",
+            "Mzdami",
+            "Veřejnou regulací"
+          ],
+          "answer": 1,
+          "explanation": "Bertrandův model formuluje strategickou volbu cen.",
+          "level": 1,
+          "id": "oligopol-q3"
+        },
+        {
+          "stem": "Co znamená kartel?",
+          "options": [
+            "Výběr spotřebitelů",
+            "Dohodu konkurentů o omezení soutěže",
+            "Pravidla dokonalé konkurence",
+            "Náhodný pokles nabídky"
+          ],
+          "answer": 1,
+          "explanation": "Kartel cíleně koordinuje tržní chování konkurentů.",
+          "level": 1,
+          "id": "oligopol-q4"
+        },
+        {
+          "stem": "Proč se firma v oligopolu zajímá o reakci konkurenta?",
+          "options": [
+            "Protože její výsledek na reakci závisí",
+            "Protože neexistuje tržní cena",
+            "Protože nemá žádné náklady",
+            "Protože musí mít jednotný výrobek"
+          ],
+          "answer": 0,
+          "explanation": "Zisk firmy ovlivňují i cenová a produkční rozhodnutí soupeřů.",
+          "level": 1,
+          "id": "oligopol-q5"
+        },
+        {
+          "stem": "Který model výslovně počítá s vůdcem a následovníkem při volbě množství?",
+          "options": [
+            "Bertrand",
+            "Cournot ve své základní simultánní podobě",
+            "Stackelberg",
+            "Dokonalá konkurence"
+          ],
+          "answer": 2,
+          "explanation": "Stackelbergův model zavádí sekvenční rozhodnutí firem.",
+          "level": 2,
+          "id": "oligopol-q6"
+        },
+        {
+          "id": "oligopol-x-q1",
+          "stem": "Dvě konkurenční automobilky sledují změny cen jedna druhé. Co je hlavním rysem tohoto trhu?",
+          "options": [
+            "Dokonalá nezávislost firem",
+            "Strategická vzájemná závislost",
+            "Nulové bariéry vstupu vždy",
+            "Homogenní práce"
+          ],
+          "answer": 1,
+          "explanation": "V oligopolu musí firma zohlednit reakci dalších velkých hráčů.",
+          "level": 2
+        },
+        {
+          "id": "oligopol-x-q2",
+          "stem": "V Nashově rovnováze platí, že…",
+          "options": [
+            "Každý hráč má nejvyšší dosažitelný zisk ze všech světů",
+            "Žádný hráč se nemůže zlepšit jednostrannou změnou strategie",
+            "Všechny firmy musí mít shodné ceny",
+            "Žádná firma nikdy nezmění výrobu"
+          ],
+          "answer": 1,
+          "explanation": "Rovnováha je stabilní vůči jednostranné změně při daných strategiích ostatních.",
+          "level": 2
+        },
+        {
+          "id": "oligopol-x-q3",
+          "stem": "Kartelová dohoda soupeřících firem o cenách může vést k…",
+          "options": [
+            "Omezení cenové soutěže",
+            "Zaručeně nižším cenám",
+            "Okamžitému zániku firem",
+            "Dokonalé konkurenci"
+          ],
+          "answer": 0,
+          "explanation": "Koordinace cen potlačuje samostatnou konkurenční reakci, proto je zpravidla protiprávní.",
+          "level": 2
+        }
+      ],
+      "deepDive": {
+        "title": "Každé rozhodnutí vyvolá reakci soupeřů",
+        "lead": "V oligopolu často rozhodují jen několik významných firem. Strategie jedné proto závisí na očekávané odpovědi ostatních.",
+        "steps": [
+          "Při cenovém snížení může konkurent reagovat stejným krokem; počáteční výhoda pak rychle zmizí.",
+          "Nabídková rozhodnutí a reklama mohou mít strategický charakter.",
+          "Nashova rovnováha popisuje situaci, kdy žádný hráč jednostrannou změnou strategie nezíská.",
+          "Kartelové dohody mohou omezením soutěže zvýšit ceny, avšak jsou v běžných případech zakázané."
+        ],
+        "formula": "Nashova rovnováha: žádný hráč nezlepší výsledek jednostrannou změnou strategie při daných strategiích ostatních.",
+        "challenge": "Dvě firmy opakovaně snižují cenu a obě nakonec vydělávají méně. Jaký princip to ilustruje?",
+        "solution": "Strategickou vzájemnou závislost. Výsledek záleží na reakci druhé firmy, ne pouze na vlastním rozhodnutí."
+      }
+    },
+    {
+      "id": "monopolisticka-konkurence",
+      "order": 8,
+      "title": "Monopolistická konkurence",
+      "blurb": "Mnoho producentů, odlišené produkty, marketing a vstup konkurentů.",
+      "minutes": 15,
+      "objectives": [
+        "Vysvětlit diferenciaci výrobku.",
+        "Rozlišit krátkodobý a dlouhodobý ekonomický zisk.",
+        "Porovnat s monopolní a dokonalou konkurencí."
+      ],
+      "sections": [
+        {
+          "heading": "Odlišení výrobku",
+          "body": "Na trhu působí mnoho firem, ale jejich produkty nejsou dokonalé substituty. Značka, umístění, servis nebo design umožňují omezenou tržní sílu."
+        },
+        {
+          "heading": "Rozhodnutí firmy",
+          "body": "Firma čelí klesající individuální poptávce. Proto bývá MR < P, optimum množství vychází z MR = MC a cenu určí poptávka."
+        },
+        {
+          "heading": "Dlouhé období",
+          "body": "Volný vstup konkurentů postupně snižuje ekonomický zisk. V běžném modelu platí P = AC > MC a vzniká nevyužitá kapacita oproti minimálním průměrným nákladům."
+        }
+      ],
+      "example": {
+        "title": "Kavárny ve městě",
+        "situation": "Kavárny prodávají podobnou kávu, ale liší se atmosférou a polohou.",
+        "reasoning": "Hosté někdy přijmou vyšší cenu kvůli oblíbenému prostředí.",
+        "conclusion": "Diferenciace umožňuje určitou cenovou volnost i při mnoha konkurentech."
+      },
+      "pitfall": "„Mnoho firem“ neznamená automaticky dokonalou konkurenci. Rozhoduje i to, zda jsou výrobky identické.",
+      "source": "Sýkora: Nedokonalá konkurence – monopolistická konkurence, seminář č. 8; Dohnalová a Dobeš: Mikroekonomie I (2013).",
+      "cards": [
+        {
+          "id": "monopolisticka-konkurence-c1",
+          "front": "Co je diferenciace produktu?",
+          "back": "Odlišení produktu vzhledem, kvalitou, značkou nebo dostupností."
+        },
+        {
+          "id": "monopolisticka-konkurence-c2",
+          "front": "Kolik firem bývá v monopolistické konkurenci?",
+          "back": "Mnoho firem nabízejících odlišené produkty."
+        },
+        {
+          "id": "monopolisticka-konkurence-c3",
+          "front": "Jaký je dlouhodobý ekonomický zisk?",
+          "back": "Ve standardním modelu se vstupem konkurentů směřuje k nule."
+        },
+        {
+          "id": "monopolisticka-konkurence-c4",
+          "front": "Platí MR = P?",
+          "back": "Ne, při klesající individuální poptávce firmy bývá MR < P."
+        },
+        {
+          "id": "monopolisticka-konkurence-x-c1",
+          "front": "Jaký je základ monopolistické konkurence?",
+          "back": "Mnoho firem nabízí vzájemně podobné, ale diferencované produkty."
+        },
+        {
+          "id": "monopolisticka-konkurence-x-c2",
+          "front": "Co se děje s ekonomickým ziskem při volném vstupu?",
+          "back": "Noví konkurenti obvykle dlouhodobě stlačují ekonomický zisk k nule."
+        }
+      ],
+      "questions": [
+        {
+          "stem": "Typickým příkladem monopolistické konkurence jsou…",
+          "options": [
+            "Mnohé vzájemně odlišené kavárny",
+            "Jediná vodovodní síť",
+            "Dvoukolejná burza s danou cenou",
+            "Jedna firma s výhradním patentem"
+          ],
+          "answer": 0,
+          "explanation": "Kavárny se liší značkou, polohou i službami a bývá jich mnoho.",
+          "level": 1,
+          "id": "monopolisticka-konkurence-q1"
+        },
+        {
+          "stem": "Co firmám umožňuje určitou tržní sílu v monopolistické konkurenci?",
+          "options": [
+            "Úplná homogenita",
+            "Diferenciace produktu",
+            "Povinnost jedné ceny všem",
+            "Absence zákazníků"
+          ],
+          "answer": 1,
+          "explanation": "Odlišný produkt není pro zákazníka dokonale zaměnitelný.",
+          "level": 1,
+          "id": "monopolisticka-konkurence-q2"
+        },
+        {
+          "stem": "Co obvykle platí pro dlouhodobý ekonomický zisk?",
+          "options": [
+            "Je vždy maximální",
+            "Roste bez omezení",
+            "Směřuje k nule vstupem firem",
+            "Je roven celkovým tržbám"
+          ],
+          "answer": 2,
+          "explanation": "Vstup konkurenčních firem omezuje původní zisky.",
+          "level": 1,
+          "id": "monopolisticka-konkurence-q3"
+        },
+        {
+          "stem": "Pro firmu s klesající individuální poptávkou obvykle platí…",
+          "options": [
+            "MR < P",
+            "MR = P vždy",
+            "MR > P vždy",
+            "P = 0"
+          ],
+          "answer": 0,
+          "explanation": "Další prodej vyžaduje snížení ceny a mezní příjem je nižší než cena.",
+          "level": 1,
+          "id": "monopolisticka-konkurence-q4"
+        },
+        {
+          "stem": "Na rozdíl od dokonalé konkurence prodávají firmy monopolistické konkurence…",
+          "options": [
+            "Výhradně jeden výrobek",
+            "Odlišené produkty",
+            "Pouze veřejné statky",
+            "Pouze suroviny"
+          ],
+          "answer": 1,
+          "explanation": "Produkty nejsou dokonale homogenní.",
+          "level": 1,
+          "id": "monopolisticka-konkurence-q5"
+        },
+        {
+          "stem": "Neefektivita v dlouhém období může mít podobu…",
+          "options": [
+            "P = minimum AC vždy",
+            "P = MC vždy",
+            "Přebytečné výrobní kapacity",
+            "Dokonalé informovanosti"
+          ],
+          "answer": 2,
+          "explanation": "Firma nemusí vyrábět při minimu průměrných nákladů.",
+          "level": 2,
+          "id": "monopolisticka-konkurence-q6"
+        },
+        {
+          "id": "monopolisticka-konkurence-x-q1",
+          "stem": "Mnoho restaurací nabízí odlišnou kuchyni a atmosféru. Kterému tržnímu modelu se situace podobá?",
+          "options": [
+            "Monopolistické konkurenci",
+            "Dokonalému monopolu",
+            "Čistému monopsonu",
+            "Úplně homogenní dokonalé konkurenci"
+          ],
+          "answer": 0,
+          "explanation": "Produkty jsou diferencované a firem je mnoho.",
+          "level": 2
+        },
+        {
+          "id": "monopolisticka-konkurence-x-q2",
+          "stem": "Jakým způsobem se kavárna může odlišit od konkurence?",
+          "options": [
+            "Kvalitou a prostředím",
+            "Odstraněním všech rozdílů",
+            "Zákazem vstupu všem ostatním",
+            "Nulovou informovaností zákazníků"
+          ],
+          "answer": 0,
+          "explanation": "Diferenciace může vycházet z kvality, lokality nebo značky.",
+          "level": 1
+        },
+        {
+          "id": "monopolisticka-konkurence-x-q3",
+          "stem": "Při volném vstupu firem do monopolisticky konkurenčního odvětví dlouhodobě zpravidla…",
+          "options": [
+            "Ekonomické zisky rostou bez omezení",
+            "Ekonomické zisky klesají k nule",
+            "Poptávka vždy přestane existovat",
+            "Firma automaticky nastaví P = 0"
+          ],
+          "answer": 1,
+          "explanation": "Noví konkurenti ubírají zákazníky stávajícím firmám a omezují jejich ekonomický zisk.",
+          "level": 2
+        }
+      ],
+      "deepDive": {
+        "title": "Proč stejné odvětví nabízí různé značky",
+        "lead": "Monopolistická konkurence spojuje mnoho producentů s odlišenými produkty. Každá firma má malý prostor ovlivnit cenu, ale zákazníci mohou přejít ke konkurenci.",
+        "steps": [
+          "Odlišení může spočívat v kvalitě, službě, místě, značce nebo zákaznické zkušenosti.",
+          "Jednotlivá firma čelí klesající poptávce po svém produktu.",
+          "V krátkém období může dosahovat ekonomického zisku.",
+          "Při volném vstupu nových podniků se dlouhodobě ekonomický zisk v modelu snižuje k nule."
+        ],
+        "formula": "Typický dlouhodobý model: ekonomický zisk π = 0, cena bývá vyšší než mezní náklad.",
+        "challenge": "V jedné ulici funguje mnoho kaváren s různou nabídkou a atmosférou. Proč nemají nutně stejnou cenu?",
+        "solution": "Nabízejí diferencované produkty a zákazníci přikládají různým vlastnostem různou hodnotu."
+      }
+    },
+    {
+      "id": "vyrobni-faktory",
+      "order": 9,
+      "title": "Trhy výrobních faktorů",
+      "blurb": "Práce, kapitál a půda jako výrobní vstupy; MRP, MFC a jejich odměňování.",
+      "minutes": 15,
+      "objectives": [
+        "Vysvětlit odvozenou poptávku po výrobním faktoru.",
+        "Použít vztah MRP a MFC.",
+        "Přiřadit faktorům odpovídající odměny."
+      ],
+      "sections": [
+        {
+          "heading": "Poptávka po vstupu je odvozená",
+          "body": "Firma potřebuje zaměstnance, stroje či půdu proto, že chce vyrábět a prodávat produkty. Změna poptávky po finálním výrobku proto ovlivňuje poptávku po výrobních faktorech."
+        },
+        {
+          "heading": "Mezní příjem produktu",
+          "body": "MRP je dodatečný příjem z výstupu vytvořeného další jednotkou vstupu. MFC jsou dodatečné náklady na tuto jednotku. Firma při vnitřním optimu hledá MRP = MFC."
+        },
+        {
+          "heading": "Odměna za faktory",
+          "body": "Práce je odměňována mzdou, půda rentou a zapůjčený kapitál úrokem. Konkrétní trhy mohou mít nedokonalou konkurenci a vyjednávací sílu."
+        }
+      ],
+      "example": {
+        "title": "Nový pracovník",
+        "situation": "Další pracovník umožní firmě získat dodatečné tržby 45 000 Kč za měsíc; firmu celkem stojí 40 000 Kč.",
+        "reasoning": "Protože MRP převyšuje MFC, může se jeho přijetí vyplatit, pokud se ostatní faktory nezmění.",
+        "conclusion": "Firma najímá vstupy kvůli jejich přínosu k prodejnému výstupu."
+      },
+      "pitfall": "MRP se v nedokonalé konkurenci odvozuje přes mezní příjem výstupu MR, nikoliv automaticky přes jeho cenu.",
+      "source": "Sýkora: Trh primárních výrobních faktorů, seminář č. 9; Dohnalová a Dobeš: Mikroekonomie I (2013).",
+      "cards": [
+        {
+          "id": "vyrobni-faktory-c1",
+          "front": "Co znamená odvozená poptávka?",
+          "back": "Poptávka po vstupu závisí na poptávce po produktu, který vstup umožňuje vyrábět."
+        },
+        {
+          "id": "vyrobni-faktory-c2",
+          "front": "Co je MRP?",
+          "back": "Dodatečný příjem vytvořený další jednotkou výrobního faktoru."
+        },
+        {
+          "id": "vyrobni-faktory-c3",
+          "front": "Co je MFC?",
+          "back": "Dodatečný náklad na další jednotku faktoru."
+        },
+        {
+          "id": "vyrobni-faktory-c4",
+          "front": "Optimální množství vstupu?",
+          "back": "V typickém vnitřním optimu MRP = MFC."
+        },
+        {
+          "id": "vyrobni-faktory-x-c1",
+          "front": "Jaký je rozdíl MPL a MRPL?",
+          "back": "MPL měří dodatečný fyzický výstup; MRPL dodatečný příjem z jeho prodeje."
+        },
+        {
+          "id": "vyrobni-faktory-x-c2",
+          "front": "Jaká je podmínka optima práce?",
+          "back": "Za standardních podmínek vnitřního optima MRPL = MFC práce."
+        }
+      ],
+      "questions": [
+        {
+          "stem": "Proč firmy poptávají práci a stroje?",
+          "options": [
+            "Protože potřebují výrobní vstupy pro produkci",
+            "Protože výrobní faktory nemají cenu",
+            "Kvůli tržní rovnováze bez výstupu",
+            "Jen kvůli legislativě"
+          ],
+          "answer": 0,
+          "explanation": "Poptávka po faktorech se odvozuje od produktové poptávky.",
+          "level": 1,
+          "id": "vyrobni-faktory-q1"
+        },
+        {
+          "stem": "MRP znamená…",
+          "options": [
+            "Celkový náklad na celý podnik",
+            "Dodatečný příjem z další jednotky vstupu",
+            "Průměrný úrok",
+            "Fixní příjem domácností"
+          ],
+          "answer": 1,
+          "explanation": "Marginal Revenue Product je dodatečný příjem vytvořený mezní jednotkou výrobního faktoru.",
+          "level": 1,
+          "id": "vyrobni-faktory-q2"
+        },
+        {
+          "stem": "MFC představuje…",
+          "options": [
+            "Mezní náklady faktoru",
+            "Celkový produkt",
+            "Tržní cenu výrobku",
+            "Průměrné tržby"
+          ],
+          "answer": 0,
+          "explanation": "Jde o přírůstek nákladů při využití další jednotky vstupu.",
+          "level": 1,
+          "id": "vyrobni-faktory-q3"
+        },
+        {
+          "stem": "Firma v modelovém vnitřním optimu najímá faktor do bodu…",
+          "options": [
+            "MRP = MFC",
+            "MRP = 0 bez výjimky",
+            "MFC = 0 bez výjimky",
+            "MFC = celkové tržby"
+          ],
+          "answer": 0,
+          "explanation": "Srovnává mezní přínos faktoru s mezním nákladem.",
+          "level": 1,
+          "id": "vyrobni-faktory-q4"
+        },
+        {
+          "stem": "Která dvojice faktor–odměna je správná?",
+          "options": [
+            "Práce–úrok",
+            "Půda–renta",
+            "Kapitál–mzda",
+            "Půda–zisk z dividend"
+          ],
+          "answer": 1,
+          "explanation": "V tradičním modelu je odměnou za půdu renta.",
+          "level": 1,
+          "id": "vyrobni-faktory-q5"
+        },
+        {
+          "stem": "Pokud vzroste poptávka po produktu firmy, poptávka po vstupu může…",
+          "options": [
+            "Také vzrůst",
+            "Nutně vymizet",
+            "Zůstat matematicky vždy nulová",
+            "Být vždy nezávislá"
+          ],
+          "answer": 0,
+          "explanation": "Vyšší prodeje mohou zvýšit mezní příjem vytvářený výrobním faktorem.",
+          "level": 2,
+          "id": "vyrobni-faktory-q6"
+        },
+        {
+          "id": "vyrobni-faktory-x-q1",
+          "stem": "Další pracovník vyrobí 8 kusů, tržní cena každého je 500 Kč a MR = P. Kolik činí MRPL?",
+          "options": [
+            "500 Kč",
+            "4 000 Kč",
+            "8 000 Kč",
+            "62,50 Kč"
+          ],
+          "answer": 1,
+          "explanation": "MRPL = MPL × P = 8 × 500 = 4 000 Kč.",
+          "level": 2
+        },
+        {
+          "id": "vyrobni-faktory-x-q2",
+          "stem": "Pokud mezní příjem z práce převyšuje mezní náklady na její najmutí, firma má tendenci…",
+          "options": [
+            "Přijmout další jednotku práce",
+            "Ukončit veškerou výrobu",
+            "Snížit produktivitu",
+            "Nevyrábět více bez ohledu na okolnosti"
+          ],
+          "answer": 0,
+          "explanation": "Přijetí další jednotky může v takovém bodě zvýšit zisk.",
+          "level": 2
+        },
+        {
+          "id": "vyrobni-faktory-x-q3",
+          "stem": "Práce, kapitál a půda jsou…",
+          "options": [
+            "Pouze spotřební statky",
+            "Výrobní faktory",
+            "Výhradně finanční aktiva",
+            "Druhy daní"
+          ],
+          "answer": 1,
+          "explanation": "Vstupují do produkce výrobků a služeb.",
+          "level": 1
+        }
+      ],
+      "deepDive": {
+        "title": "Mezní přínos zaměstnance rozhoduje o poptávce",
+        "lead": "Poptávka po pracovní síle je odvozená. Firma sleduje, zda nová jednotka vstupu přinese vyšší příjem než její mezní náklady.",
+        "steps": [
+          "Urči mezní produkt práce: kolik výstupu přidá další pracovník.",
+          "V dokonalé konkurenci na trhu produktu vynásob MPL cenou; tím získáš MRPL.",
+          "Obecně je mezní příjem z produktu MRPL = MPL × MR.",
+          "Najímání se při vhodných podmínkách zastaví tam, kde MRPL = MFC práce."
+        ],
+        "formula": "MPL = ΔQ/ΔL; MRPL = MPL × MR (při dokonalé konkurenci na trhu produktu MR = P).",
+        "challenge": "Další pracovník zvýší produkci o 8 kusů, firma je prodává za 500 Kč za kus v dokonale konkurenčním trhu. Jaký je jeho MRPL?",
+        "solution": "MRPL = 8 × 500 = 4 000 Kč za sledované období. Pro rozhodnutí se tento příjem porovná s mezními náklady práce za stejné období."
+      }
+    },
+    {
+      "id": "trh-prace",
+      "order": 10,
+      "title": "Trh práce a mzda",
+      "blurb": "Nabídka pracovní síly, odvozená poptávka firem, rovnovážná mzda a vliv technologií.",
+      "minutes": 15,
+      "objectives": [
+        "Správně určit, kdo nabízí a kdo poptává práci.",
+        "Interpretovat graf rovnováhy trhu práce.",
+        "Vysvětlit, proč AI může poptávku po práci posunout oběma směry."
+      ],
+      "sections": [
+        {
+          "heading": "Nabídka a poptávka",
+          "body": "Pracovní sílu nabízejí domácnosti, zatímco firmy ji poptávají jako vstup do výroby. Cenou práce je mzda. Průsečík tržních křivek označuje modelovou rovnováhu."
+        },
+        {
+          "heading": "Produktivita a mzdy",
+          "body": "Firma hodnotí, jaký dodatečný příjem získá díky pracovníkovi (MRP). Pokud zlepšení technologie zvýší jeho produktivitu, může růst poptávka po dané kvalifikaci."
+        },
+        {
+          "heading": "Technologie a substituce",
+          "body": "Automatizace někdy nahradí rutinní úkoly a sníží poptávku po určitých činnostech. Jindy technologie doplní člověka, zvýší jeho produktivitu a poptávku může podpořit. Výsledek závisí i na poptávce po produktech."
+        }
+      ],
+      "example": {
+        "title": "Automatizace faktur",
+        "situation": "Účetní oddělení začne používat software na automatické čtení faktur.",
+        "reasoning": "Firma může ponechat zaměstnance a přijímat více zakázek, nebo zkrátit potřebu rutinní práce.",
+        "conclusion": "Z automatizace jednotlivého úkolu nelze bez dalšího odvodit zánik celé profese."
+      },
+      "pitfall": "Substituční a důchodový efekt individuální nabídky práce není totéž jako substituce lidské práce technologií.",
+      "source": "Sýkora: Trh práce a mzda, seminář č. 10; Dohnalová a Dobeš: Mikroekonomie I (2013), kap. 9.",
+      "cards": [
+        {
+          "id": "trh-prace-c1",
+          "front": "Kdo nabízí práci?",
+          "back": "Domácnosti a jednotlivci."
+        },
+        {
+          "id": "trh-prace-c2",
+          "front": "Kdo poptává práci?",
+          "back": "Firmy a další zaměstnavatelé."
+        },
+        {
+          "id": "trh-prace-c3",
+          "front": "Rovnovážná mzda?",
+          "back": "Mzda, při které se množství nabídnuté a poptávané práce vyrovná."
+        },
+        {
+          "id": "trh-prace-c4",
+          "front": "Jak AI může ovlivnit poptávku po práci?",
+          "back": "Může nahradit některé úkoly, nebo zvýšit přínos lidské práce."
+        },
+        {
+          "id": "trh-prace-c5",
+          "front": "Co je monopson na trhu práce?",
+          "back": "Trh s jedním dominantním kupujícím pracovní síly."
+        },
+        {
+          "id": "trh-prace-x-c1",
+          "front": "Jak se mění poptávka po práci při její substituci strojem?",
+          "back": "U daného typu práce může klesnout, pokud stroj převezme stejné úkoly za nižší náklady."
+        },
+        {
+          "id": "trh-prace-x-c2",
+          "front": "Proč se při vyšší produktivitě nemusí zvyšovat mzda?",
+          "back": "Mzda závisí i na nabídce pracovníků, vyjednávací síle, cenách a tržní situaci."
+        }
+      ],
+      "questions": [
+        {
+          "stem": "Kdo je na trhu práce na straně nabídky?",
+          "options": [
+            "Zaměstnavatelé",
+            "Domácnosti a pracovníci",
+            "Pouze stát",
+            "Výrobci strojů"
+          ],
+          "answer": 1,
+          "explanation": "Pracovníci nabízejí své pracovní služby.",
+          "level": 1,
+          "id": "trh-prace-q1"
+        },
+        {
+          "stem": "Kdo tvoří poptávku po práci?",
+          "options": [
+            "Firmy a další zaměstnavatelé",
+            "Pouze zaměstnanci",
+            "Pouze domácnosti",
+            "Pouze spotřebitelé"
+          ],
+          "answer": 0,
+          "explanation": "Firmy najímají práci jako výrobní faktor.",
+          "level": 1,
+          "id": "trh-prace-q2"
+        },
+        {
+          "stem": "Co označuje rovnovážný bod v grafu trhu práce?",
+          "options": [
+            "Nejvyšší možnou mzdu",
+            "Shodu nabízeného a poptávaného množství práce",
+            "Nulové výrobní náklady",
+            "Počet nezaměstnaných"
+          ],
+          "answer": 1,
+          "explanation": "V průsečíku S a D se tržní množství nabídnuté a poptávané práce rovnají.",
+          "level": 1,
+          "id": "trh-prace-q3"
+        },
+        {
+          "stem": "Pokud technologie zcela nahradí rutinní činnost a ostatní vlivy se nemění, poptávka po této práci může…",
+          "options": [
+            "Posunout se doleva",
+            "Povinně zvýšit mzdu všem",
+            "Zůstat vždy stejná",
+            "Zmizet nabídka práce"
+          ],
+          "answer": 0,
+          "explanation": "Firmy při stejné mzdě potřebují méně práce v nahrazené činnosti.",
+          "level": 2,
+          "id": "trh-prace-q4"
+        },
+        {
+          "stem": "Pokud AI zvýší mezní produkt zaměstnance, může se poptávka po jeho práci…",
+          "options": [
+            "Snížit vždy na nulu",
+            "Posunout doprava",
+            "Změnit v nabídku práce",
+            "Přestat být odvozená"
+          ],
+          "answer": 1,
+          "explanation": "Vyšší přínos pracovníka může podpořit jeho najímání.",
+          "level": 2,
+          "id": "trh-prace-q5"
+        },
+        {
+          "stem": "Monopson na trhu práce znamená…",
+          "options": [
+            "Jediného významného zaměstnavatele v daném trhu",
+            "Jediného pracovníka",
+            "Mnoho vzájemně nezávislých firem",
+            "Volný vstup bez bariér"
+          ],
+          "answer": 0,
+          "explanation": "Monopson popisuje tržní sílu kupujícího, na trhu práce zaměstnavatele.",
+          "level": 1,
+          "id": "trh-prace-q6"
+        },
+        {
+          "id": "trh-prace-x-q1",
+          "stem": "AI pomáhá projektantovi vypracovat více návrhů a firma získává nové zakázky. Jaký efekt na poptávku po této práci je možný?",
+          "options": [
+            "Posun poptávky doprava",
+            "Nucený zánik profese",
+            "Vždy neměnná mzda",
+            "Zánik trhu práce"
+          ],
+          "answer": 0,
+          "explanation": "Vyšší mezní produkt a nové zakázky mohou posunout poptávku po kvalifikované práci doprava.",
+          "level": 2
+        },
+        {
+          "id": "trh-prace-x-q2",
+          "stem": "Co znamená odvozená poptávka firem po práci?",
+          "options": [
+            "Vyplývá z poptávky po finálních výrobcích a službách",
+            "Je totožná s nabídkou domácností",
+            "Je vždy daná zákonem",
+            "Nezávisí na produktivitě"
+          ],
+          "answer": 0,
+          "explanation": "Zaměstnanec je výrobní vstup do prodejných výstupů.",
+          "level": 2
+        },
+        {
+          "id": "trh-prace-x-q3",
+          "stem": "Tržní poptávka po práci se posune doleva a nabídka se nemění. V jednoduchém konkurenčním modelu…",
+          "options": [
+            "Mzda a zaměstnanost klesnou",
+            "Mzda i zaměstnanost vždy vzrostou",
+            "Změní se jen mzda",
+            "Rovnováha nemůže existovat"
+          ],
+          "answer": 0,
+          "explanation": "Při neměnné rostoucí nabídce se nová rovnováha posune k nižší mzdě i zaměstnanosti.",
+          "level": 2
+        }
+      ],
+      "deepDive": {
+        "title": "Kdy technologie zvýší a kdy sníží potřebu lidí",
+        "lead": "Změna technologie nemá jeden automatický účinek na zaměstnanost. Posouzení vyžaduje rozlišit substituci práce a zvýšení její produktivity.",
+        "steps": [
+          "Firma poptává práci kvůli výstupu, který může prodat: jde o odvozenou poptávku.",
+          "Pokud software zastoupí lidskou rutinu levněji, poptávka po dané práci může klesnout.",
+          "Pokud software zvyšuje mezní produkt zaměstnance, poptávka po daném typu práce může vzrůst.",
+          "Výsledek ovlivní také poptávka zákazníků, náklady kapitálu a dostupné dovednosti."
+        ],
+        "formula": "Pro konkurenční trh práce: MRPL = w v bodě optimální zaměstnanosti za standardních předpokladů.",
+        "challenge": "Účetní zvládá s AI o polovinu více faktur. Firma má stále stejně klientů. Musí zaměstnat o polovinu méně účetních?",
+        "solution": "Ne. Může snížit pracovní hodiny, nabídnout nové služby, zlepšit kontrolu, nebo snížit počet pracovních míst. Samotná produktivita výsledek neurčí."
+      }
+    },
+    {
+      "id": "kapital",
+      "order": 11,
+      "title": "Trh kapitálu a úrok",
+      "blurb": "Úspory, investice, nominální a reálná úroková míra, důchod a bohatství.",
+      "minutes": 15,
+      "objectives": [
+        "Vysvětlit nabídku úspor a poptávku po investicích.",
+        "Odlišit reálný a nominální úrok.",
+        "Popsat vztah mezi úrokem a investicemi."
+      ],
+      "sections": [
+        {
+          "heading": "Kapitál a financování",
+          "body": "Kapitál ve výrobě zahrnuje například stroje, budovy a software. Na trhu zapůjčitelných fondů se střetávají úspory a poptávka po prostředcích na investice."
+        },
+        {
+          "heading": "Cena kapitálu",
+          "body": "Úroková míra vyjadřuje cenu zapůjčených prostředků. Při vyšší úrokové míře se méně investičních projektů vyplatí."
+        },
+        {
+          "heading": "Nominální a reálný úrok",
+          "body": "Nominální úrok je sazba sjednaná v penězích, reálný zohledňuje inflaci. Přibližně platí reálný úrok ≈ nominální úrok − inflace, přesnější vztah používá Fisherovu rovnici."
+        }
+      ],
+      "example": {
+        "title": "Půjčka pro dílnu",
+        "situation": "Firma zvažuje nákup stroje financovaný úvěrem.",
+        "reasoning": "Při vyšším úroku roste cena financování a některé projekty už nemají dostatečný očekávaný výnos.",
+        "conclusion": "Vyšší úrok obvykle tlumí investiční poptávku."
+      },
+      "pitfall": "Úroková míra na trhu zapůjčitelných fondů není totéž co mzda na trhu práce.",
+      "source": "Sýkora: Trh kapitálu a rozdělování důchodů, seminář č. 11; Dohnalová a Dobeš: Mikroekonomie I (2013), kap. 10.",
+      "cards": [
+        {
+          "id": "kapital-c1",
+          "front": "Co je reálná úroková míra?",
+          "back": "Nominální úrok očištěný o inflaci."
+        },
+        {
+          "id": "kapital-c2",
+          "front": "Co tvoří nabídku zapůjčitelných fondů?",
+          "back": "Úspory domácností a dalších subjektů."
+        },
+        {
+          "id": "kapital-c3",
+          "front": "Co je investiční poptávka?",
+          "back": "Poptávka firem po prostředcích na investiční projekty."
+        },
+        {
+          "id": "kapital-c4",
+          "front": "Důchod vs. bohatství?",
+          "back": "Důchod je tok za období; bohatství je stav majetku k okamžiku."
+        },
+        {
+          "id": "kapital-x-c1",
+          "front": "Co znamená diskontování?",
+          "back": "Přepočet budoucích plateb na současnou hodnotu pomocí diskontní sazby."
+        },
+        {
+          "id": "kapital-x-c2",
+          "front": "Jak vyšší úrok ovlivňuje investice za jinak stejných podmínek?",
+          "back": "Zvyšuje cenu kapitálu, a proto může snížit investiční poptávku."
+        }
+      ],
+      "questions": [
+        {
+          "stem": "Co je základním zdrojem nabídky zapůjčitelných fondů?",
+          "options": [
+            "Úspory",
+            "Dovoz",
+            "Daňová přiznání",
+            "Počet zaměstnanců"
+          ],
+          "answer": 0,
+          "explanation": "Uspořené prostředky mohou financovat investice.",
+          "level": 1,
+          "id": "kapital-q1"
+        },
+        {
+          "stem": "Při vyšší úrokové míře bývá poptávka po financování investic…",
+          "options": [
+            "Vyšší bez ohledu na výnosy",
+            "Nižší",
+            "Vždy nulová",
+            "Neměnná"
+          ],
+          "answer": 1,
+          "explanation": "Vyšší náklad financování snižuje počet výnosných projektů.",
+          "level": 1,
+          "id": "kapital-q2"
+        },
+        {
+          "stem": "Je-li nominální úrok 7 % a inflace 3 %, přibližná reálná úroková míra je…",
+          "options": [
+            "10 %",
+            "7 %",
+            "4 %",
+            "3 %"
+          ],
+          "answer": 2,
+          "explanation": "Přibližně 7 − 3 = 4 procentní body.",
+          "level": 2,
+          "id": "kapital-q3"
+        },
+        {
+          "stem": "Co je bohatství oproti důchodu?",
+          "options": [
+            "Tok za kalendářní rok",
+            "Stav majetku v určitém okamžiku",
+            "Výše jedné mzdy",
+            "Růst cen"
+          ],
+          "answer": 1,
+          "explanation": "Bohatství je stavová veličina, důchod toková.",
+          "level": 1,
+          "id": "kapital-q4"
+        },
+        {
+          "stem": "Co patří mezi reálný kapitál používaný ve výrobě?",
+          "options": [
+            "Stroj a výrobní hala",
+            "Pouze bankovky",
+            "Pouze důchod domácnosti",
+            "Pouze úroková sazba"
+          ],
+          "answer": 0,
+          "explanation": "Stroje a budovy poskytují výrobní služby.",
+          "level": 1,
+          "id": "kapital-q5"
+        },
+        {
+          "stem": "Co při vyšší inflaci a stejném nominálním úroku obvykle nastane s reálným úrokem?",
+          "options": [
+            "Vzroste",
+            "Klesne",
+            "Zůstane vždy nulový",
+            "Vyrovná se mzdě"
+          ],
+          "answer": 1,
+          "explanation": "Inflace snižuje kupní sílu nominálního výnosu.",
+          "level": 1,
+          "id": "kapital-q6"
+        },
+        {
+          "id": "kapital-x-q1",
+          "stem": "Za rok dostaneš 11 000 Kč, diskontní sazba je 10 % ročně. Jaká je PV?",
+          "options": [
+            "9 900 Kč",
+            "10 000 Kč",
+            "11 000 Kč",
+            "12 100 Kč"
+          ],
+          "answer": 1,
+          "explanation": "PV = 11 000 / 1,1 = 10 000 Kč.",
+          "level": 3
+        },
+        {
+          "id": "kapital-x-q2",
+          "stem": "Pokud se reálná úroková sazba zvýší a ostatní podmínky se nemění, poptávka po investicích zpravidla…",
+          "options": [
+            "Vzroste",
+            "Klesne",
+            "Zůstane přesně stejná vždy",
+            "Přestane souviset s náklady"
+          ],
+          "answer": 1,
+          "explanation": "Vyšší cena financování omezuje počet výhodných projektů.",
+          "level": 2
+        },
+        {
+          "id": "kapital-x-q3",
+          "stem": "Proč se budoucích 1 000 Kč obvykle oceňuje méně než dnešních 1 000 Kč?",
+          "options": [
+            "Protože peníze mají časovou hodnotu",
+            "Protože nominální cena je zakázaná",
+            "Kvůli povinné nulové inflaci",
+            "Protože úrok nikdy neexistuje"
+          ],
+          "answer": 0,
+          "explanation": "Dnešní peníze lze investovat a získat z nich budoucí výnos.",
+          "level": 2
+        }
+      ],
+      "deepDive": {
+        "title": "Investice, úrok a časová hodnota peněz",
+        "lead": "Kapitál je výrobní vstup a finanční prostředky lze použít na různé investice. Proto porovnáváme očekávaný budoucí přínos s dnešní cenou financování.",
+        "steps": [
+          "Úrok je cenou zapůjčeného kapitálu; vyšší úrok zvyšuje náklady financování.",
+          "Při investici porovnej současnou hodnotu očekávaných příjmů s nákladem.",
+          "Diskontování převádí budoucí platbu na dnešní hodnotu.",
+          "Firma by neměla investovat pouze podle nominálního zisku bez zohlednění času a rizika."
+        ],
+        "formula": "PV = FV / (1 + r)^n, kde r je sazba za období a n počet období.",
+        "challenge": "Za rok získáš 11 000 Kč. Při diskontní sazbě 10 % ročně, jaká je současná hodnota?",
+        "solution": "PV = 11 000 / 1,10 = 10 000 Kč. Dnes bys při dané sazbě měl být ochoten zaplatit přibližně nejvýše tuto částku, pokud odhlédneme od rizika."
+      }
+    },
+    {
+      "id": "rovnovaha",
+      "order": 12,
+      "title": "Celková rovnováha a efektivnost",
+      "blurb": "Vazby trhů, Walrasova rovnováha a Paretova efektivnost.",
+      "minutes": 15,
+      "objectives": [
+        "Rozlišit dílčí a celkovou rovnováhu.",
+        "Popsat Paretovo zlepšení.",
+        "Vysvětlit propojenost trhů."
+      ],
+      "sections": [
+        {
+          "heading": "Parciální a celková rovnováha",
+          "body": "Parciální analýza zkoumá jeden trh při ostatních nezměněných podmínkách. Celková rovnováha sleduje propojené trhy současně: změna na jednom může působit na další."
+        },
+        {
+          "heading": "Walrasovský přístup",
+          "body": "V modelu celkové rovnováhy se ceny přizpůsobují tak, aby se na trzích vyrovnávala nabídka a poptávka při vzájemných vazbách."
+        },
+        {
+          "heading": "Paretovská efektivnost",
+          "body": "Alokace je Paretovsky efektivní, pokud nelze někomu polepšit bez zhoršení situace jiného. Efektivnost sama o sobě neříká, zda je rozdělení spravedlivé."
+        }
+      ],
+      "example": {
+        "title": "Zdražení elektřiny",
+        "situation": "Energie zdraží pro domácnosti i továrny.",
+        "reasoning": "Rostou výrobní náklady, což ovlivní nabídku výrobků, zaměstnanost i spotřebitelské rozpočty.",
+        "conclusion": "Jeden cenový šok může zasáhnout více vzájemně provázaných trhů."
+      },
+      "pitfall": "Paretova efektivnost a rovnost rozdělení nejsou synonyma.",
+      "source": "Sýkora: Celková rovnováha a tržní efektivnost, seminář č. 12; Dohnalová a Dobeš: Mikroekonomie I (2013), kap. 11.",
+      "cards": [
+        {
+          "id": "rovnovaha-c1",
+          "front": "Parciální rovnováha?",
+          "back": "Analýza jednoho trhu při ostatních podmínkách neměnných."
+        },
+        {
+          "id": "rovnovaha-c2",
+          "front": "Celková rovnováha?",
+          "back": "Současné vyrovnání vzájemně propojených trhů."
+        },
+        {
+          "id": "rovnovaha-c3",
+          "front": "Paretovo zlepšení?",
+          "back": "Zlepšení situace alespoň jednoho bez zhoršení kohokoliv jiného."
+        },
+        {
+          "id": "rovnovaha-c4",
+          "front": "Je Pareto efektivnost totéž co spravedlnost?",
+          "back": "Ne, efektivní rozdělení může být velmi nerovné."
+        },
+        {
+          "id": "rovnovaha-x-c1",
+          "front": "Co je Paretovo zlepšení?",
+          "back": "Změna, která někomu prospěje a nikomu jinému neublíží."
+        },
+        {
+          "id": "rovnovaha-x-c2",
+          "front": "Zaručuje Paretova efektivnost spravedlnost?",
+          "back": "Ne. Efektivnost a spravedlivé rozdělení jsou odlišné otázky."
+        }
+      ],
+      "questions": [
+        {
+          "stem": "Co je hlavní rozdíl mezi parciální a celkovou rovnováhou?",
+          "options": [
+            "Parciální řeší jediný trh, celková vazby více trhů",
+            "Celková ignoruje trhy",
+            "Parciální zahrnuje všechny země",
+            "Neexistuje rozdíl"
+          ],
+          "answer": 0,
+          "explanation": "Celková analýza respektuje vzájemnou provázanost trhů.",
+          "level": 1,
+          "id": "rovnovaha-q1"
+        },
+        {
+          "stem": "Kdy je alokace Paretovsky efektivní?",
+          "options": [
+            "Když mají všichni stejné příjmy",
+            "Když nelze nikomu polepšit bez zhoršení jiného",
+            "Když je maximální daň",
+            "Když je nulová nezaměstnanost"
+          ],
+          "answer": 1,
+          "explanation": "Definice Paretovy efektivnosti se týká možnosti nezhoršujícího zlepšení.",
+          "level": 1,
+          "id": "rovnovaha-q2"
+        },
+        {
+          "stem": "Jaký je příklad vzájemné provázanosti trhů?",
+          "options": [
+            "Dražší energie mění výrobní náklady a ceny produktů",
+            "Cena energie neovlivní žádný další trh",
+            "Výrobní náklady jsou nezávislé na energiích",
+            "Spotřebitelé nemají rozpočet"
+          ],
+          "answer": 0,
+          "explanation": "Změny cen vstupů se promítají do produkce a dalších trhů.",
+          "level": 1,
+          "id": "rovnovaha-q3"
+        },
+        {
+          "stem": "Je Paretovsky efektivní alokace automaticky sociálně spravedlivá?",
+          "options": [
+            "Ano, vždy",
+            "Ne, efektivnost a spravedlnost jsou odlišné pojmy",
+            "Jen pokud neexistují ceny",
+            "Jen při nulovém HDP"
+          ],
+          "answer": 1,
+          "explanation": "Paretovo kritérium neposuzuje, zda je rozdělení příjmů férové.",
+          "level": 1,
+          "id": "rovnovaha-q4"
+        },
+        {
+          "stem": "Co charakterizuje celkovou rovnováhu v základním modelu?",
+          "options": [
+            "Ceny a množství se současně přizpůsobují napříč trhy",
+            "Každý trh je izolovaný",
+            "Neexistují výrobní faktory",
+            "Poptávka se nemůže změnit"
+          ],
+          "answer": 0,
+          "explanation": "Ceny koordinují chování subjektů napříč více trhy.",
+          "level": 1,
+          "id": "rovnovaha-q5"
+        },
+        {
+          "stem": "Paretovo zlepšení nastane, pokud…",
+          "options": [
+            "Někdo získá a nikdo jiný neztratí",
+            "Všichni mají identickou mzdu",
+            "Stát zvýší daň",
+            "Všechny firmy maximalizují tržby"
+          ],
+          "answer": 0,
+          "explanation": "Jde o zlepšení alespoň jednoho bez újmy ostatních.",
+          "level": 1,
+          "id": "rovnovaha-q6"
+        },
+        {
+          "id": "rovnovaha-x-q1",
+          "stem": "Co je Paretovo zlepšení?",
+          "options": [
+            "Změna zlepšující alespoň jednoho bez poškození jiných",
+            "Zvýšení příjmu jednoho na úkor druhého",
+            "Stav s rovnými mzdami pro všechny",
+            "Každé zvýšení HDP"
+          ],
+          "answer": 0,
+          "explanation": "Nikomu se nesmí pohoršit a alespoň jednomu se musí polepšit.",
+          "level": 2
+        },
+        {
+          "id": "rovnovaha-x-q2",
+          "stem": "Je každé paretovsky efektivní rozdělení automaticky spravedlivé?",
+          "options": [
+            "Ano, podle definice",
+            "Ne, efektivnost neřeší spravedlnost",
+            "Ano, pokud existují daně",
+            "Ne, protože nemá žádné ceny"
+          ],
+          "answer": 1,
+          "explanation": "Efektivnost nevylučuje velkou nerovnost v rozdělení.",
+          "level": 2
+        },
+        {
+          "id": "rovnovaha-x-q3",
+          "stem": "Rostoucí cena elektřiny zasáhne výrobní náklady více odvětví. Jakou ekonomickou souvislost to ukazuje?",
+          "options": [
+            "Vzájemnou propojenost trhů",
+            "Nemožnost obchodu mezi firmami",
+            "Existenci jediného produktu",
+            "Neměnnost všech tržních cen"
+          ],
+          "answer": 0,
+          "explanation": "Ceny vstupů na jednom trhu se přenášejí do nabídky na dalších trzích.",
+          "level": 2
+        }
+      ],
+      "deepDive": {
+        "title": "Trhy jsou navzájem propojené",
+        "lead": "Změna jednoho trhu může zasáhnout další. Proto je někdy potřeba místo jediného grafu nabídky a poptávky uvažovat více trhů zároveň.",
+        "steps": [
+          "Při zdražení energie se mění náklady výroby a nabídka navazujících firem.",
+          "Změny cen vstupů ovlivní zisk, zaměstnanost a následně příjmy domácností.",
+          "Paretovo zlepšení znamená, že si někdo polepší, aniž si jiný pohorší.",
+          "Paretovská efektivnost sama o sobě neznamená spravedlivé rozdělení příjmů."
+        ],
+        "formula": "Paretovo zlepšení: alespoň jeden je na tom lépe a nikdo hůře.",
+        "challenge": "Dva lidé mají nerovně rozdělené zdroje a nelze nikomu přidat bez ubrání druhému. Je rozdělení nutně spravedlivé?",
+        "solution": "Ne. Může být paretovsky efektivní a současně velmi nerovné."
+      }
+    },
+    {
+      "id": "trzni-selhani",
+      "order": 13,
+      "title": "Tržní selhání a stát",
+      "blurb": "Externality, veřejné statky, informační asymetrie a důvody regulace.",
+      "minutes": 15,
+      "objectives": [
+        "Rozpoznat čtyři příčiny tržního selhání.",
+        "Vysvětlit pozitivní a negativní externalitu.",
+        "Popsat nástroje nápravy i jejich limity."
+      ],
+      "sections": [
+        {
+          "heading": "Tržní selhání",
+          "body": "Tržní mechanismus někdy nevede ke společensky efektivní alokaci. Může jít o tržní sílu, externality, veřejné statky nebo asymetrické informace."
+        },
+        {
+          "heading": "Externality a veřejné statky",
+          "body": "Negativní externalita znamená, že činnost škodí třetím osobám bez odpovídající náhrady, například znečištění. Pozitivní externalita přináší přínos ostatním, například vzdělání. Čistě veřejný statek je nevylučitelný a nerivalitní."
+        },
+        {
+          "heading": "Role státu a limity",
+          "body": "Daně, dotace, regulace či veřejné poskytování statků mohou řešit selhání. Zásahy však mají náklady a mohou samy vytvářet neefektivnosti; je třeba srovnat přínos a náklady."
+        }
+      ],
+      "example": {
+        "title": "Továrna a ovzduší",
+        "situation": "Továrna vypouští emise, které zhoršují zdraví místních obyvatel.",
+        "reasoning": "Firma ve svých soukromých nákladech nezohlední veškeré společenské škody.",
+        "conclusion": "Emisní poplatky nebo jiná opatření mohou vnést vnější náklady do rozhodování firmy."
+      },
+      "pitfall": "Veřejný statek není totéž co „cokoliv, co vlastní stát“. Rozhodující jsou ekonomické vlastnosti spotřeby.",
+      "source": "Sýkora: Tržní selhání a působení státu, seminář č. 13; Dohnalová a Dobeš: Mikroekonomie I (2013).",
+      "cards": [
+        {
+          "id": "trzni-selhani-c1",
+          "front": "Co je negativní externalita?",
+          "back": "Náklad uvalený na třetí osoby bez odpovídající kompenzace."
+        },
+        {
+          "id": "trzni-selhani-c2",
+          "front": "Co je veřejný statek?",
+          "back": "Statkem v čisté podobě nevylučitelným a nerivalitním."
+        },
+        {
+          "id": "trzni-selhani-c3",
+          "front": "Asymetrické informace?",
+          "back": "Jedna strana transakce má relevantně více informací než druhá."
+        },
+        {
+          "id": "trzni-selhani-c4",
+          "front": "Jak lze korigovat externalitu?",
+          "back": "Například daní, dotací nebo regulací podle povahy externality."
+        },
+        {
+          "id": "trzni-selhani-x-c1",
+          "front": "Co je negativní externalita?",
+          "back": "Náklad činnosti dopadající na jiné osoby, který není plně zahrnut v tržní ceně."
+        },
+        {
+          "id": "trzni-selhani-x-c2",
+          "front": "Co je asymetrická informace?",
+          "back": "Jedna strana transakce ví o relevantní kvalitě či riziku více než druhá."
+        }
+      ],
+      "questions": [
+        {
+          "stem": "Co je příkladem negativní externality?",
+          "options": [
+            "Vzdělávání s přínosy pro společnost",
+            "Kouř z továrny škodící sousedům",
+            "Dobrovolná sleva v obchodě",
+            "Růst produktivity firmy"
+          ],
+          "answer": 1,
+          "explanation": "Škoda dopadá na třetí osoby a tržní cena ji nemusí zohlednit.",
+          "level": 1,
+          "id": "trzni-selhani-q1"
+        },
+        {
+          "stem": "Který příklad nejlépe odpovídá čistému veřejnému statku?",
+          "options": [
+            "Soukromý mobil",
+            "Krajíc chleba",
+            "Národní obrana",
+            "Jedno sedadlo v kině"
+          ],
+          "answer": 2,
+          "explanation": "Národní obrana je obvykle nerivalitní a nelze z ní snadno vyloučit jednotlivce.",
+          "level": 1,
+          "id": "trzni-selhani-q2"
+        },
+        {
+          "stem": "Co znamená informační asymetrie?",
+          "options": [
+            "Obě strany znají přesně totéž",
+            "Jedna strana ví o podstatné vlastnosti více než druhá",
+            "Cena výrobku je pevná",
+            "Poptávka rovná se nabídka"
+          ],
+          "answer": 1,
+          "explanation": "Nerovnoměrné informace mohou narušit kvalitu rozhodování.",
+          "level": 1,
+          "id": "trzni-selhani-q3"
+        },
+        {
+          "stem": "Jaký nástroj může pomoci řešit negativní externalitu z emisí?",
+          "options": [
+            "Emisní daň",
+            "Dotace za další znečištění",
+            "Zákaz jakékoliv informace",
+            "Odstranění evidence emisí"
+          ],
+          "answer": 0,
+          "explanation": "Daň z externality může promítnout část společenských nákladů do ceny.",
+          "level": 1,
+          "id": "trzni-selhani-q4"
+        },
+        {
+          "stem": "Pozitivní externalitou vzdělání může být…",
+          "options": [
+            "Vyšší prospěch společnosti díky znalostem",
+            "Povinný růst emisí",
+            "Zhoršení informačních toků",
+            "Snížení lidského kapitálu"
+          ],
+          "answer": 0,
+          "explanation": "Vzdělání má vedle soukromých i společenské přínosy.",
+          "level": 1,
+          "id": "trzni-selhani-q5"
+        },
+        {
+          "stem": "Proč ani státní zásah není automaticky optimální?",
+          "options": [
+            "Regulace nemá žádné náklady",
+            "Existují informační omezení a náklady regulace",
+            "Stát nikdy nemůže vybírat daně",
+            "Veřejné statky nejsou dostupné"
+          ],
+          "answer": 1,
+          "explanation": "Vedle tržního selhání existuje i riziko neefektivní politiky.",
+          "level": 2,
+          "id": "trzni-selhani-q6"
+        },
+        {
+          "id": "trzni-selhani-x-q1",
+          "stem": "Automobilová doprava vytváří hluk pro obyvatele okolí bez kompenzace. Co jde za příklad?",
+          "options": [
+            "Pozitivní externality",
+            "Negativní externality",
+            "Dokonalé informovanosti",
+            "Veřejného zisku"
+          ],
+          "answer": 1,
+          "explanation": "Hluk představuje externí náklad pro třetí osoby.",
+          "level": 2
+        },
+        {
+          "id": "trzni-selhani-x-q2",
+          "stem": "Která dvojice vlastností charakterizuje čistý veřejný statek?",
+          "options": [
+            "Rivalita a vylučitelnost",
+            "Nerivalita a nevylučitelnost",
+            "Rivalita a volný vstup",
+            "Zisk a monopol"
+          ],
+          "answer": 1,
+          "explanation": "Spotřeba jednoho neomezuje druhého a vyloučení je obtížné nebo nemožné.",
+          "level": 2
+        },
+        {
+          "id": "trzni-selhani-x-q3",
+          "stem": "Kupující o stavu ojetého auta ví méně než prodávající. Jaký tržní problém řeší?",
+          "options": [
+            "Asymetrii informací",
+            "Náklady obětované příležitosti",
+            "Mezní produkt",
+            "Tržní rovnováhu bez nejistoty"
+          ],
+          "answer": 0,
+          "explanation": "Prodávající má relevantní informace, které kupující nemusí mít.",
+          "level": 2
+        }
+      ],
+      "deepDive": {
+        "title": "Proč trh někdy nedosahuje společensky vhodného výsledku",
+        "lead": "Tržní cena nezachytí všechny dopady výroby a spotřeby. Když například firma způsobuje hluk okolí, část nákladů nese někdo jiný.",
+        "steps": [
+          "Externalita vzniká, když činnost ovlivní nezúčastněné osoby bez plné kompenzace v cenách.",
+          "Veřejný statek je zpravidla nerivalitní a nevylučitelný ze spotřeby.",
+          "Asymetrické informace mohou vést ke špatnému výběru nebo nedostatečné důvěře.",
+          "Státní zásah může problémy omezit, ale má i administrativní náklady a riziko vlastního selhání."
+        ],
+        "formula": "Při negativní externalitě: společenské mezní náklady = soukromé mezní náklady + externí mezní škody.",
+        "challenge": "Továrna vypouští emise, jejichž náklady na zdraví lidí se nepromítají do ceny produktu. Jaký problém vzniká?",
+        "solution": "Negativní produkční externalita; tržní cena nezachycuje všechny společenské náklady."
+      }
+    },
+    {
+      "id": "ai-trh-prace",
+      "order": 14,
+      "title": "AI a budoucnost trhu práce",
+      "blurb": "Aplikace mikroekonomie: automatizace, augmentace, pracovní místa a česká data.",
+      "minutes": 15,
+      "objectives": [
+        "Odlišit pracovní úkol od celé profese.",
+        "Rozlišit skutečný údaj, očekávání firem a prognózu.",
+        "Posoudit substituci a doplnění lidské práce."
+      ],
+      "sections": [
+        {
+          "heading": "Dvě cesty změny",
+          "body": "Automatizace nahrazuje konkrétní úkoly, například třídění faktur. Augmentace pomáhá pracovníkovi zvýšit výkon, například při analýze dat. Dopad na zaměstnanost není automaticky totožný s dopadem na jednotlivé činnosti."
+        },
+        {
+          "heading": "České scénáře a časové horizonty",
+          "body": "Studie BCG, MPSV a Aspen z roku 2025 modeluje do roku 2035 vznik 955 tisíc míst a zánik 355 tisíc; změny zahrnují více trendů, nejen AI. Průzkum ÚP ČR 2026 zjistil, že 61 % dotázaných zaměstnavatelů nečeká během dalších tří let významnou změnu počtu zaměstnanců kvůli AI."
+        },
+        {
+          "heading": "Dovednosti",
+          "body": "V průzkumu ÚP ČR 2026 byly za důležité pro budoucnost nejčastěji označeny technické dovednosti (58 %), digitální gramotnost (50 %) a kreativní myšlení (47 %). Jde o odpovědi zaměstnavatelů, nikoliv naměřené dopady AI."
+        }
+      ],
+      "example": {
+        "title": "Účetní oddělení",
+        "situation": "AI přečte příchozí faktury a navrhne jejich zaúčtování.",
+        "reasoning": "Člověk může kontrolovat chyby, řešit výjimky a věnovat se klientům. Firma také může potřebovat méně hodin rutinní práce.",
+        "conclusion": "Proměna náplně práce a zánik pracovního místa jsou odlišné události."
+      },
+      "pitfall": "Neříkej, že „AI zruší 43 % míst“. BCG v daném údaji popisuje podíl profesí ovlivněných GenAI, ne podíl zaniklých míst.",
+      "source": "BCG, MPSV, Aspen Institute: Budoucnost českého pracovního trhu (2025), s. 20–21; Úřad práce ČR: Predikce a realita pracovního trhu očima zaměstnavatelů (2026), s. 25–29.",
+      "cards": [
+        {
+          "id": "ai-trh-prace-c1",
+          "front": "Automatizace práce?",
+          "back": "Technologie přebírá některé úkoly, které dříve dělal člověk."
+        },
+        {
+          "id": "ai-trh-prace-c2",
+          "front": "Augmentace práce?",
+          "back": "Technologie podporuje lidskou práci a zvyšuje schopnost plnit úkoly."
+        },
+        {
+          "id": "ai-trh-prace-c3",
+          "front": "Kolik firem nečekalo významnou změnu počtu lidí kvůli AI?",
+          "back": "61 % v šetření ÚP ČR 2026, v horizontu tří let."
+        },
+        {
+          "id": "ai-trh-prace-c4",
+          "front": "Prognóza BCG do 2035: vznik / zánik?",
+          "back": "955 tisíc nových a 355 tisíc zaniklých pozic podle modelu."
+        },
+        {
+          "id": "ai-trh-prace-c5",
+          "front": "Co je rekvalifikace?",
+          "back": "Osvojení kompetencí pro jiné pracovní uplatnění."
+        },
+        {
+          "id": "ai-trh-prace-x-c1",
+          "front": "Co znamená vystavení profese generativní AI?",
+          "back": "Část jejích pracovních úkolů může být technologií ovlivněna; nemusí jít o zánik místa."
+        },
+        {
+          "id": "ai-trh-prace-x-c2",
+          "front": "Proč nelze srovnávat čísla BCG 2035 a ÚP 2026 jako stejný ukazatel?",
+          "back": "Jde o jiný horizont i veličinu: zásah do úkolů versus očekávanou změnu počtu pracovníků."
+        }
+      ],
+      "questions": [
+        {
+          "stem": "Když chatbot převezme rutinní dotazy zákaznické podpory, jde primárně o…",
+          "options": [
+            "Substituci části lidské práce",
+            "Růst nabídky domácností",
+            "Snížení důchodového efektu",
+            "Vznik veřejného statku"
+          ],
+          "answer": 0,
+          "explanation": "Technologie přebírá konkrétní pracovní činnost.",
+          "level": 1,
+          "id": "ai-trh-prace-q1"
+        },
+        {
+          "stem": "Když AI pomáhá specialistovi zpracovat více zakázek, jde především o…",
+          "options": [
+            "Monopson",
+            "Augmentaci",
+            "Důchodový efekt",
+            "Cenový strop"
+          ],
+          "answer": 1,
+          "explanation": "AI doplňuje člověka a podporuje jeho produktivitu.",
+          "level": 1,
+          "id": "ai-trh-prace-q2"
+        },
+        {
+          "stem": "Co znamená, že pracovní místo je „ovlivněno GenAI“?",
+          "options": [
+            "Pracovní místo určitě zanikne",
+            "Všechny úkoly se zautomatizují",
+            "Některé činnosti se mohou změnit",
+            "Mzda musí být nulová"
+          ],
+          "answer": 2,
+          "explanation": "Expozice GenAI a zánik celé pozice nejsou totéž.",
+          "level": 1,
+          "id": "ai-trh-prace-q3"
+        },
+        {
+          "stem": "Kolik zaměstnavatelů v šetření ÚP ČR 2026 neočekávalo významnou změnu počtu zaměstnanců kvůli AI během tří let?",
+          "options": [
+            "29 %",
+            "4 %",
+            "61 %",
+            "95 %"
+          ],
+          "answer": 2,
+          "explanation": "ÚP ČR uvádí 61 % respondentů, kteří nečekají významnou změnu.",
+          "level": 1,
+          "id": "ai-trh-prace-q4"
+        },
+        {
+          "stem": "Jaký čistý přírůstek pracovních míst plyne z prognózy 955 tisíc nových a 355 tisíc zanikajících pozic?",
+          "options": [
+            "600 tisíc",
+            "355 tisíc",
+            "1 310 tisíc",
+            "955 tisíc"
+          ],
+          "answer": 0,
+          "explanation": "955 − 355 = 600 tisíc. Výhled zahrnuje více trendů než pouze AI.",
+          "level": 2,
+          "id": "ai-trh-prace-q5"
+        },
+        {
+          "stem": "Které dovednosti označili zaměstnavatelé v ÚP ČR 2026 nejčastěji jako důležité?",
+          "options": [
+            "Pouze cizí jazyky",
+            "Technické dovednosti",
+            "Pouze manažerské dovednosti",
+            "Jen práce v kanceláři"
+          ],
+          "answer": 1,
+          "explanation": "Technické dovednosti uvedlo 58 % zaměstnavatelů, nejvíce z nabídnutých možností.",
+          "level": 1,
+          "id": "ai-trh-prace-q6"
+        },
+        {
+          "id": "ai-trh-prace-x-q1",
+          "stem": "Podle šetření ÚP ČR 2026 většina dotázaných firem v horizontu tří let kvůli AI…",
+          "options": [
+            "Očekává zdvojnásobení počtu zaměstnanců",
+            "Nepředpokládá výraznou změnu počtu zaměstnanců",
+            "Očekává zánik všech administrativních míst",
+            "Nemá žádné zaměstnance"
+          ],
+          "answer": 1,
+          "explanation": "Přibližně 61 % nečekalo významnou změnu počtu zaměstnanců; jde o očekávání.",
+          "level": 2
+        },
+        {
+          "id": "ai-trh-prace-x-q2",
+          "stem": "Co je příkladem augmentace práce?",
+          "options": [
+            "AI pomáhá technikovi analyzovat měření, závěrečné rozhodnutí dělá technik",
+            "Robot bez obsluhy zcela nahradí pozici",
+            "Zákazník přestane služby nakupovat",
+            "Firma zavře celou pobočku"
+          ],
+          "answer": 0,
+          "explanation": "Technologie zvyšuje možnosti pracovníka, který nadále vykonává rozhodující část úkolu.",
+          "level": 2
+        },
+        {
+          "id": "ai-trh-prace-x-q3",
+          "stem": "BCG odhaduje ovlivnění pracovních pozic GenAI. Jak tento údaj správně chápat?",
+          "options": [
+            "Všechna ovlivněná místa automaticky zaniknou",
+            "Jde o potenciál změny úkolů, nikoli přímý počet propuštěných",
+            "Všechny firmy získají přesně stejnou produktivitu",
+            "Počet zaměstnanců se nikdy nezmění"
+          ],
+          "answer": 1,
+          "explanation": "Vystavení nebo vliv GenAI na činnosti nevypovídá přímo o počtu zaniklých pracovních míst.",
+          "level": 2
+        }
+      ],
+      "deepDive": {
+        "title": "Vystavení AI není totéž co zánik profese",
+        "lead": "AI ovlivňuje jednotlivé úkoly uvnitř povolání. Konečná zaměstnanost závisí i na poptávce, cenách služeb, produktivitě a přechodu pracovníků do nových rolí.",
+        "steps": [
+          "Automatizace nahrazuje konkrétní činnosti, například prvotní třídění dokumentů.",
+          "Augmentace pomáhá pracovníkovi: třeba účetní rychleji projde podklady a rozhodne o opravách.",
+          "Dlouhodobá prognóza BCG 2025 odhaduje výrazný zásah GenAI do struktury pracovních činností v ČR do roku 2035.",
+          "Průzkum ÚP 2026 se ptal na očekávání počtu zaměstnanců v bližším tříletém horizontu. Tyto ukazatele nelze ztotožňovat."
+        ],
+        "formula": "Dopad na zaměstnanost = kombinace substituce úkolů, zvýšení produktivity, růstu poptávky a změn kvalifikace (konceptuální vztah, nikoli rovnice).",
+        "challenge": "61 % dotázaných firem nečeká výraznou změnu počtu zaměstnanců kvůli AI. Znamená to, že se v nich nezmění práce?",
+        "solution": "Ne. Pracovní náplň a používané nástroje se mohou měnit i při stabilním počtu zaměstnanců. Údaj je očekávání, nikoli naměřený budoucí dopad."
+      }
+    }
+  ]
+}

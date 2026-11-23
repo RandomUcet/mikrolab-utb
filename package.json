@@ -1,0 +1,20 @@
+{
+  "name": "mikrolab-utb",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline-first studijní prostředí pro Mikroekonomii I: adaptivní trénink, chyby, rozložené opakování a výklad.",
+  "scripts": {
+    "start": "node tools/dev-server.mjs",
+    "dev": "npm run build && npm run start",
+    "build": "node tools/build.mjs && node tools/build_standalone.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
