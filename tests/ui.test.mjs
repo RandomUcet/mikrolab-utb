@@ -42,3 +42,20 @@ test('standalone HTML contains diagnostic and worked plot modules',()=>{
  for(const name of ['function planDiagnostic(', 'function diagnosticSummary(', 'function marketProblemSvg(', 'function laborProblemSvg('])assert.ok(html.includes(name),name);
  assert.match(html,/MikroLab 0\.4/);
 });
+
+test('diagnostic attempts become actionable mistakes without duplicating exam history',()=>{
+ const app=fake();
+ const entries=content.topics.map(topic=>({topic,question:topic.questions[0]}));
+ const attempts=entries.map(({topic,question},i)=>({
+  questionId:question.id,topicId:topic.id,correct:i!==0,
+  mode:'exam',at:'2026-11-23T16:00:00.000Z'
+ }));
+ app.quiz={kind:'diagnostic',entries,index:entries.length-1,chosen:0,results:attempts,done:false,topicId:null};
+ app.persist=()=>{};
+ app.render=()=>{};
+ app.nextQuestion();
+ assert.equal(app.state.diagnostics.length,1);
+ assert.equal(app.state.attempts.length,entries.length);
+ assert.equal(app.state.exams.length,0);
+ assert.equal(app.state.attempts.filter(a=>!a.correct).length,1);
+});
