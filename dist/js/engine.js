@@ -1,5 +1,5 @@
 export const DAY_MS = 86_400_000;
-export function initialState() { return { version: 1, cards: {}, attempts: [], exams: [], mathAttempts: [], visitedTopics: [], reviewDays: [], dailyGoal: 8, preference: 'light' }; }
+export function initialState() { return { version: 1, cards: {}, attempts: [], exams: [], diagnostics: [], mathAttempts: [], visitedTopics: [], reviewDays: [], dailyGoal: 8, preference: 'light' }; }
 export function allCards(content) { return content.topics.flatMap(topic => topic.cards.map(card => ({ topic, card }))); }
 export function allQuestions(content) { return content.topics.flatMap(topic => topic.questions.map(question => ({ topic, question }))); }
 export function due(review, at = new Date()) { return Boolean(review && new Date(review.dueAt).getTime() <= at.getTime()); }

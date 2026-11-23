@@ -27,10 +27,13 @@ export function generateCalcProblem(skillId, rng = Math.random) {
         throw new Error(`Neznámá dovednost: ${skillId}`);
     const val = (min, max) => rr(rng, min, max);
     let prompt = '', answer = 0, steps = [], hint = '', unit = '';
+    let market;
+    let labor;
     switch (skillId) {
         case 'rovnovaha-trhu': {
             const price = val(8, 35), q = val(30, 120), b = val(2, 5), d = val(2, 5);
             const a = q + b * price, c = q - d * price;
+            market = { a, b, c, d };
             prompt = `Poptávka je Qd = ${a} − ${b}P a nabídka Qs = ${c} + ${d}P. Urči rovnovážnou cenu P.`;
             answer = price;
             unit = 'Kč';
@@ -95,6 +98,7 @@ export function generateCalcProblem(skillId, rng = Math.random) {
         }
         case 'trh-prace': {
             const mp = val(4, 24), price = val(4, 20) * 10, wage = val(20, 55) * 10;
+            labor = { mpl: mp, price, wage };
             prompt = `Při konstantní ceně výrobku ${price} Kč vytvoří dodatečný pracovník ${mp} kusů. Jeho mzdový náklad je ${wage} Kč za stejné období. Vypočti jeho mezní příjem produktu práce MRPL.`;
             answer = mp * price;
             unit = 'Kč';
@@ -141,7 +145,7 @@ export function generateCalcProblem(skillId, rng = Math.random) {
     }
     if (!Number.isFinite(answer) || !steps.length)
         throw new Error('Nevygenerovaná úloha');
-    return { id: `${skillId}:${Math.trunc(rng() * 1_000_000_000)}`, skillId, topicId: skill.topicId, title: skill.title, prompt, answer, unit, tolerance: Number.isInteger(answer) ? 1e-8 : 0.005001, steps, hint };
+    return { id: `${skillId}:${Math.trunc(rng() * 1_000_000_000)}`, skillId, topicId: skill.topicId, title: skill.title, prompt, answer, unit, tolerance: Number.isInteger(answer) ? 1e-8 : 0.005001, steps, hint, market, labor };
 }
 /** Czech decimal separator accepted; do not interpret units or arbitrary expressions. */
 export function parseNumericResponse(text) {
