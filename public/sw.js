@@ -1,7 +1,7 @@
-const CACHE='mikrolab-0.3.0';
+const CACHE='mikrolab-0.4.0';
 const ASSETS=[
  './','./index.html','./styles.css','./content.json','./icon.svg','./manifest.webmanifest',
- './js/main.js','./js/ui.js','./js/calculations.js','./js/engine.js','./js/store.js','./js/coach.js','./js/types.js'
+ './js/diagnostic.js','./js/visuals.js','./js/main.js','./js/ui.js','./js/calculations.js','./js/engine.js','./js/store.js','./js/coach.js','./js/types.js'
 ];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting()));

@@ -1,6 +1,6 @@
 {
   "name": "mikrolab-utb",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
   "description": "Offline-first studijní prostředí pro Mikroekonomii I: adaptivní trénink, chyby, rozložené opakování a výklad.",
