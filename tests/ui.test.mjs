@@ -31,3 +31,8 @@ test('quiz UI keeps correct answers hidden during simulated exam',()=>{
  assert.doesNotMatch(app.quizScreen(),/Správná odpověď/);
  app.quiz.kind='practice';assert.match(app.quizScreen(),/Správně je|Správná odpověď/);
 });
+
+test('service worker precaches all generated JS modules required offline',()=>{
+ const source=readFileSync(new URL('../dist/sw.js',import.meta.url),'utf8');
+ for(const name of ['main','ui','engine','store','coach','calculations','types'])assert.ok(source.includes(`./js/${name}.js`),name);
+});
